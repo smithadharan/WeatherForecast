@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.3)
+  - MBProgressHUD (1.2.0)
+  - RxSwift (5.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - MBProgressHUD (~> 1.2.0)
+  - RxSwift (~> 5)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MBProgressHUD
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+
+PODFILE CHECKSUM: 0f6a6cd5de345115586c0750fd373baceb5dc236
+
+COCOAPODS: 1.10.2

@@ -1,0 +1,2114 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0037A383D8F1140F05D4D451088B94F8 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853D79EC09368555AB8D2FB536273BC3 /* Merge.swift */; };
+		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90190E84D7425EA683A1B3F3C085521E /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B635822977B4A747F33BE7BC91FA9 /* MBProgressHUD.m */; };
+		013F885E3B13A8BCF444D062C39B7075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61006233C7F4698D9F014E78EBE56E70 /* Foundation.framework */; };
+		01F3F31E6B98377B85D1A690C161E2A2 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7842265E2EE1142B2409DE3410244DA2 /* Create.swift */; };
+		02D8725F995F4C859481D39B993086D9 /* ShareReplayScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D09E358988851FC93EA31FC2B9A155 /* ShareReplayScope.swift */; };
+		02EAD8786C85DC140E3BDB4C6506E006 /* SkipWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE6ED9B59B98FB523B0D71B464579 /* SkipWhile.swift */; };
+		037060932B0F96019BF498DDB0275B79 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F180A9B154B50766EBE5A7E86D301CB /* Zip.swift */; };
+		045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F58BEDD213B2F8195229B0C1AD733 /* RedirectHandler.swift */; };
+		04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5B9855D5B88043B5F4C7DABA0FA95 /* Result+Alamofire.swift */; };
+		04D65B42A5135937022F71EB91D49C88 /* PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184DA2911EE32ACAB1F03490C8CAC49 /* PrimitiveSequence.swift */; };
+		058366F440459C08DAC78CB68B49E5FD /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3968E24D8F47D58DEB2690522B95C0 /* PublishSubject.swift */; };
+		05C1F09A8C7E1CE70E186AB7FC94E807 /* Maybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5B62CDCC00A84815FF46122E8793F /* Maybe.swift */; };
+		05D4B4A37F384BD407718FDBE07A23F9 /* SerialDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3379CB528F6D36B7F6BA7FF6D2950B2 /* SerialDispatchQueueScheduler.swift */; };
+		079C1CC5A67C1C67A424509A260EDFCF /* CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33E0C3E5C56FE858FF1C92F31AEEF1 /* CombineLatest.swift */; };
+		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61006233C7F4698D9F014E78EBE56E70 /* Foundation.framework */; };
+		0E7750980E3351BDE6C71CBA7FABEF5C /* InvocableScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92BADF4AE75CB8D9AD5486E24729B5 /* InvocableScheduledItem.swift */; };
+		0E819DAF1324ED7250755AC0E16E7A64 /* BinaryDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACCA2DFCA7AD65C796A74F52DCDEFF /* BinaryDisposable.swift */; };
+		0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61006233C7F4698D9F014E78EBE56E70 /* Foundation.framework */; };
+		11F6DEC285FF17DA098E6590438E4458 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12793811DD89FA418DA4A0F13F9BA219 /* Disposable.swift */; };
+		121C09EB46029C6207E0050738E285EF /* GroupBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3E13C39B6229FE878C9478CBBDEBF /* GroupBy.swift */; };
+		13C1C24A483A3997FC78399C0364AECC /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BBC9A5CBAEA899031216FD551FDD53 /* Timer.swift */; };
+		14190E1FEF9E6E93CFEAA5E27F26C8C3 /* DelaySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468822B2BC099C903EC35ADFB519497A /* DelaySubscription.swift */; };
+		152517B49D75C9DE8F0249C3EBD9E9BC /* RxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B266BAD51A2D1C68233A7E7262016D /* RxSwift-dummy.m */; };
+		159763EAB98C1C8B4324D1AF3EC47CB1 /* AsMaybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261D55487B6DC2A50E1655943F98191 /* AsMaybe.swift */; };
+		15AD6D46B2A1DD5CA5B31D025B995EEA /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF6313547625E833AA805A31516150 /* Platform.Darwin.swift */; };
+		15F8E0783FDB1EC2D0034F3565668D24 /* ConcurrentDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CBCA29A664EC0D72DE9019815B52B /* ConcurrentDispatchQueueScheduler.swift */; };
+		160AE7A02917CEDB1811FA559B534EAA /* SwitchIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6F1BDC8AF97F8DEDFBEE64FFF6332 /* SwitchIfEmpty.swift */; };
+		16AECD71F2DF6086E382E9EEF4F450E0 /* CombineLatest+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4DF17F3AE6777A46F7A2E8ED306A1 /* CombineLatest+Collection.swift */; };
+		1810D1A6383D5C004D3CF006DD87E008 /* DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94672A88D9B8F4550C88225EAD7148DE /* DistinctUntilChanged.swift */; };
+		181640DE625A117E7F27AB8B2D715CA4 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE534CD60D5808A4D7D0CE5AC7E136A /* Producer.swift */; };
+		1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A19A27ED2601952ACD1B26D1619F57C /* SessionDelegate.swift */; };
+		1A0E11FBDA1C1CD536CFED9C3F9B5852 /* RxMutableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F67A7141127DB74E1E101B19A6614F3 /* RxMutableBox.swift */; };
+		1A31C6B93032B701C735766A2FDE8B79 /* CombineLatest+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0875292491530D867E8FBE39266F8E /* CombineLatest+arity.swift */; };
+		1A54D6DEDFA4DF6BB7BF87B415F31FB6 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE666377F1B8687A07E8FD67074507E4 /* Window.swift */; };
+		1DAE63EAD834608767B8C7269E4B22D5 /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5721772F6AC0C11B589291A8DB55F /* Dematerialize.swift */; };
+		1E3041658084EEA4090F79F1A0954B25 /* SynchronizedOnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9F66BC410D4AF5CEA1174E76CFECA8 /* SynchronizedOnType.swift */; };
+		1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929B8979BA6D9B46D165C84322C39D6 /* AlamofireExtended.swift */; };
+		21D01DE478D593633D7F9107E87F0389 /* Materialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF8C7EF0A001F5DDD12A63CC446C7C9 /* Materialize.swift */; };
+		22ED388F921DF6E1C68A2CF6F52ED35A /* Pods-WeatherForecast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD10984D0116393B62748FEF33419EC0 /* Pods-WeatherForecast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24B95805E3A58641F8E5D89DC7C79678 /* SynchronizedDisposeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A443FA4D84C46E2B6FBAC01AD256A /* SynchronizedDisposeType.swift */; };
+		25F75D32ED3AFA5B454A33A92AB84A3B /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6C8DA0A02150A8952B8CC734459B87 /* AnonymousObserver.swift */; };
+		26B54611D7622A553EBF17E7AF522120 /* Bag+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E72D25547E241A8D5C6D61D63823689 /* Bag+Rx.swift */; };
+		2A7273E692E8E3DB11A135FC44AD1F22 /* WithLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DDB886E06F46CADBFB7B61583328F /* WithLatestFrom.swift */; };
+		2BC52A9DA6D9E9BBC33C90DD3DD1AEC4 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90D3B9B7217BF997132460BA128AB6 /* Deferred.swift */; };
+		2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAF02E04A3B6F07683F5ACA41085BA /* CachedResponseHandler.swift */; };
+		2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251F3B5B4C178EB36E30255EA2D91C4 /* Notifications.swift */; };
+		2DCDE54987286816A42D99460498F2CA /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56777F68CD7908D65702AFEFE0189412 /* Lock.swift */; };
+		33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4FB3AD37678FB6CD101E7F371C2BC /* RetryPolicy.swift */; };
+		340E5BA12C8F5AC613ED85ECD8D9623F /* DefaultIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868E45CA86637FCC0DD385482BC4B42 /* DefaultIfEmpty.swift */; };
+		3A80A3D6071FD91AFBEFB9EC8D4EEC19 /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA5D0C4E0B8D51CE399280BF041397 /* SubscribeOn.swift */; };
+		3B381F45DD9F455B2ABB074CB40C22F7 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475585FF233C2722119A91F1530A8E5 /* Delay.swift */; };
+		3C2173C0E9D66EC32A3B2CE5DF1F52C4 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8D86E09CD23B552AE94173BC8654C /* Buffer.swift */; };
+		3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D7FC0EDA3FDE02941F88326C189970 /* Validation.swift */; };
+		3DB87D613F5435DFC14852E123BFAFF0 /* Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7288F3628F67CDFA011A263B228A5 /* Zip+arity.swift */; };
+		3ED3E1F0FA37B5D5104040FCF3EE744A /* RefCountDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3E8374324776B263AF4558721CAA5 /* RefCountDisposable.swift */; };
+		3F3458C4FB7A3A0BFB1CDDD80BA625DC /* Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7C846341330FE6F5044A04C873EE4 /* Timeout.swift */; };
+		3F349793EDACADB4F5C11CA55606D975 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF9547D415D97EDAAB3339548FA1FC /* First.swift */; };
+		3F6CECD0C32283B0D08368E6212CC674 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A4F00EC1B005AC5DFA6F409152AAA /* Debounce.swift */; };
+		3FA94B065201568A7D53B06A3E7F43AA /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329DB87ED1226FA94B3F8EA6D6D455 /* Repeat.swift */; };
+		409BFAA68DEB80CB6BEE19B3E99A4F0A /* PrimitiveSequence+Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B381066FE1988293B075F1BF0A6541 /* PrimitiveSequence+Zip+arity.swift */; };
+		413C960B8F6A22369945CD39D798EBBC /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB1D87F1C2E45CA0B49EBE3DEDF49 /* Sink.swift */; };
+		442A2327E5AC99AC722353C9A6217B10 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253E3A157C11C702D3374FC13C21A1A /* Filter.swift */; };
+		46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F2F6274B010099D27EBBE00473EC9 /* Combine.swift */; };
+		46DA0B7995254B2A0058E048E6BFFD7A /* SubjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC8D03272455B5A4F11DC25BA9707B /* SubjectType.swift */; };
+		4A1A92158D5B490EDFE00E74FB1F7575 /* SchedulerServices+Emulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C553791060E8D6E7B2CFD97C07325D93 /* SchedulerServices+Emulation.swift */; };
+		4A3BC74A39DD9F94D2039DED3A249F39 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E17A333FE6EFDD953EE6EAE8BE43A7 /* ScheduledItemType.swift */; };
+		4B977AF9351B133CFD08FACC8980D63B /* SkipUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD09797191812E6AD99F0A2499406DE /* SkipUntil.swift */; };
+		4D89B922561BF30DD82310F3DBA382E3 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC71979FDFB40867677D8F68F0788E /* Range.swift */; };
+		51DDC5068CFEBB05E762F7903EEB0BFE /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90244FCF893C21048525AE2150A330A1 /* Errors.swift */; };
+		52B62146A0506511C33FFE21D479F098 /* Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099019CE04B92F7D9DE74D4594E1E115 /* Take.swift */; };
+		53483D2813CBD2559B61BB8ECEEBB720 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29729C842F2393A1646977FF91ECAB4 /* Event.swift */; };
+		5362ED50B5BAD017EE00B8CDF153E405 /* StartWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6AC472BC3AA22685B36B6646F3E167 /* StartWith.swift */; };
+		55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCD4FCAAB55F3F5106482D573B637D /* Alamofire-dummy.m */; };
+		58A01985DC698B916413DFC8CFDC2D93 /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7315702973D9D7962717F22156764D /* Skip.swift */; };
+		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C52AC91073A08A8D2265ECBCD5FB7 /* MBProgressHUD-dummy.m */; };
+		5A067882BD23845EB07ED3D99A244D01 /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CEF19DDC9A025CD0807251904D95 /* ObserverType.swift */; };
+		5AF7D6515D4F38DB9C5110D3613D1C81 /* Date+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ECF8BB7BE010D3338940D1DE685FAF /* Date+Dispatch.swift */; };
+		5AFEB2CECF6B7878E79F2C766B8E62D7 /* TakeUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C818BC8B1217AE56DB12DA5F05B5AC /* TakeUntil.swift */; };
+		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DCE091E2EBD7B109193F07FE1A02B2 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CCE4D4C956846C42FEE56223FCFF75F /* VirtualTimeScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE4D8CDDE658C41945C752A7A2DFA1 /* VirtualTimeScheduler.swift */; };
+		5E2EA0BC7803FE4E36E5B68FFC3D9AAA /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D091C830B79903F3B158841B4B82C /* Observable.swift */; };
+		5E5E868A0257E1EC728883A1728393D8 /* AsyncLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF66AC51E0D4F66451B1C9D5573C4526 /* AsyncLock.swift */; };
+		60F87B1EC6FD873896A7C4056539806A /* AddRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7211CA6ED3E6679C4EB56EB0E3017 /* AddRef.swift */; };
+		61BB90D0062C2BE088980CA482AE5CA5 /* Concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B162AEA0E9E0ABB8836072A959E6824E /* Concat.swift */; };
+		629E0562FD0C353FC9D0A4BDFC3F45AD /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BCCD4FB66968291E05AB60393B8EF0 /* Scan.swift */; };
+		64617228332642AC78D26A5625F14D08 /* GroupedObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCBF299B0CF1ED2FCA9D9F3066C8F2 /* GroupedObservable.swift */; };
+		663FBF04C43B60ECCCA30A13E899CA2D /* TailRecursiveSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8ECDCEA882401C80EDC403DD7437D /* TailRecursiveSink.swift */; };
+		675BD3AE56F03E1939BE3F90CB4CA7A4 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D2BBCB0D575B7DF894326D689B486 /* Switch.swift */; };
+		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F67EB795373B8FA37F4AC1930DCAE6E5 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B90CF667BCCF95AF1BF94512B49D5A /* ParameterEncoding.swift */; };
+		69B872C9E966769F53F257A41550A8D8 /* SingleAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D4E2F07E8D7521E1421E391BAA59E /* SingleAsync.swift */; };
+		6B7A44CBF39E20EF9916BF51970ED762 /* Pods-WeatherForecastTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF9304D5255AE9798C81AA9B59CFF64 /* Pods-WeatherForecastTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF7C0FBE2C46F810047240C17A7B785 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47E351DCD6A6EAF6D5A0B1DB54AD74 /* Deprecated.swift */; };
+		71365E9EEF335AC0D44445C0F05B878F /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF193AFBDFF553A9E6A6D2A01DB312 /* BehaviorSubject.swift */; };
+		726773AA835622512AF1EE0A7CBA352C /* Enumerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2A6CCA0E47B93C63FEC03BCE2A3DF3 /* Enumerated.swift */; };
+		7287792889178704A9CA725170E8D5EB /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521F589C72BCF3CAE38FD27CBD6CED7 /* Just.swift */; };
+		73D261440078A6DFDF40396E07612E5A /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A12E1050555E5B779A988F708AA10 /* DispatchQueue+Extensions.swift */; };
+		7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6806CBB4798EDAE6912BA5D5DE1D4A7 /* AuthenticationInterceptor.swift */; };
+		752C264BE890D37B96F6C4537B72FFF1 /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE96BA8ADDB41B4E9516B268D2A115A /* RecursiveLock.swift */; };
+		759642D0BAE19731084BE627B2C753DA /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F0649622E4445AEAE1E30BF8C778E0 /* AsyncSubject.swift */; };
+		75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804466CB6363A4675378B28D7F1F8BA4 /* Response.swift */; };
+		75C4FD53E2160418A73553D2ED2D2312 /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F373EECDD96FE46B3227B65CD65B14 /* CompositeDisposable.swift */; };
+		7864D7E6B0010724527D9DF3388AE105 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233A295061E704FC6F0AA7FB6BE793C0 /* Map.swift */; };
+		78DE6E2130A6F57F454F8048AFC968A6 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9102CD029A4DE54624689D2DFCB84875 /* Do.swift */; };
+		7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB713E7D8C3F2AC321604B8CA2AB1135 /* URLEncodedFormEncoder.swift */; };
+		7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D058AC66F4B9D62D5E066AE1F2DAD667 /* CFNetwork.framework */; };
+		7B093D72BEB063FE68DAD3C89F7AA0F5 /* Amb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77A7D44C99E7F0DE7939615C39AC53 /* Amb.swift */; };
+		7B9B62B83925BFC191CFD9A89B6491A4 /* TakeLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72D59A5A6D65175FC652B9D17BBD8C4 /* TakeLast.swift */; };
+		7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44362FF756EA1CA5C5C424038BAF0BCE /* HTTPHeaders.swift */; };
+		7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E6992569DD6A0FCC8652DA64FFB4F /* StringEncoding+Alamofire.swift */; };
+		7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238D40E047B23EC5A37C8D599C72054 /* MultipartFormData.swift */; };
+		808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD1A726FC5E7FA9ED0D141F6A41251 /* URLSessionConfiguration+Alamofire.swift */; };
+		81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5850E9F210A34A2738F210F41A9984E8 /* Session.swift */; };
+		824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7F6626F4D6F62167D9CDFB63A0383 /* ResponseSerialization.swift */; };
+		87A65E9EAB9B93ABA3EEA8A14ED1B8BF /* Pods-WeatherForecastTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C9C20294C5DDC338A77E50A826EDE5 /* Pods-WeatherForecastTests-dummy.m */; };
+		88C1E1B9244ACD3313053ECB30F186E0 /* ScheduledDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5B220FA6BF1E82824F900A384C29C4 /* ScheduledDisposable.swift */; };
+		898ED2E1194D72ED57492A55596DA234 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AA43AFAE624002F1DB1A5EA216E71 /* Bag.swift */; };
+		8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC20D3FDE5DEC2B38F4C2518DF64DF5D /* URLConvertible+URLRequestConvertible.swift */; };
+		8DD1258C3BDB899445984852871F9294 /* ScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99DC6B66069B963663007AF8560A7C7 /* ScheduledItem.swift */; };
+		8EAC0BF7E801ADF6AEA6D786FA5A7518 /* ConnectableObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873E70A149F71ED37BA6652E189105F /* ConnectableObservableType.swift */; };
+		8EC5E09EB84A2DAD77D59693AB4B60FF /* OperationQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212E314B17D25AB7A0897D7B5A589A4 /* OperationQueueScheduler.swift */; };
+		8F5C9D6B644F507554E1791FE96FABAD /* Pods-WeatherForecast-WeatherForecastUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7648C47FCEA662EC53ECEEA38E643E8F /* Pods-WeatherForecast-WeatherForecastUITests-dummy.m */; };
+		90BB409A53D09F03EE72F001FC299DA5 /* LockOwnerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD26EBD3299988637928BA984F2CFA /* LockOwnerType.swift */; };
+		95173A46BFF0B5D22FE55658044A874B /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E53488E2114E8CA53289E286AE2C0 /* Queue.swift */; };
+		98AE70908354AAC1C5E6A7BC138CE516 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB563070871C22EB83584F58CBE524 /* Platform.Linux.swift */; };
+		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E8050010C9C1E9EE8141C2DC455C /* ParameterEncoder.swift */; };
+		9AB916AE6DAEE8884B624AA511589F21 /* ImmediateSchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCF46D8C2514AC5A4B378886FE4EC9C /* ImmediateSchedulerType.swift */; };
+		9B0BE91DD7A71C619AE74B3C04D9F3EC /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0625CB338D2388381D645A5C5A3CB69E /* Sequence.swift */; };
+		9B23E3067987801CA586FD9C16263187 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB59304680DB6EF46A65C9E2A405227 /* Error.swift */; };
+		9BD65633E545953567E8EB29EF32C683 /* RecursiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EC324EDCC3C042F1F30F6B41795B0 /* RecursiveScheduler.swift */; };
+		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C386DBF3147131B2E46332ACFB0308 /* Concurrency.swift */; };
+		9DD25161CA24FA409D87BD1F7E467086 /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B54AACF646AEA5E9C872C14D52F0D /* ObservableType+Extensions.swift */; };
+		9E5DB2C3F73B1D2038FED0C0325DE785 /* Pods-WeatherForecast-WeatherForecastUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B10A3416A30EEC7B7EF5C2298BBFAC0A /* Pods-WeatherForecast-WeatherForecastUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FC9CD9D0398445EE7E59FEA8404CD4F /* Pods-WeatherForecast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE36672F6D0C4E0ADB2F816B1701B171 /* Pods-WeatherForecast-dummy.m */; };
+		A1D4567C30B773513CB15BB63D6093E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61006233C7F4698D9F014E78EBE56E70 /* Foundation.framework */; };
+		A227914003FEC4D934EEA4E4B667DEEB /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB77227FFD8D8F496E3DE052ABCDB7C3 /* Cancelable.swift */; };
+		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A5B85EEFEEE9BB37E538EA7333314 /* NetworkReachabilityManager.swift */; };
+		A3704F887F4FE7B7622DFE2A9E193496 /* Zip+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56BFB53891D1D2BB5D93CEF7AEECD70 /* Zip+Collection.swift */; };
+		A3D0822B922E554DFCF120C9EE8420ED /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19864B36EB5859166831A91C93B152F4 /* Reduce.swift */; };
+		A4EE487F061ACA034A7C50F296748F13 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DEA775467C4ACBE735312D5D1D7DE2 /* DisposeBag.swift */; };
+		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63670D95EB45F91AF1612E95EAA0D7D9 /* Protected.swift */; };
+		A756BDB189A09CE1478E06A8A8D898AB /* ElementAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8C9AA7C97C85A594577A9D961F5EC7 /* ElementAt.swift */; };
+		AA39B13A259C9D27361DD134779E0CAD /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98ADF7E48E1FFC352A4FF938EEC39C /* Sample.swift */; };
+		AC69635D928936D2706A921AF3E8BE8C /* NopDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79F2A082068B01F18C710A54467437 /* NopDisposable.swift */; };
+		AC6B21DFDC00B0D7F51C060DE40FA587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61006233C7F4698D9F014E78EBE56E70 /* Foundation.framework */; };
+		AEEB33D64B96FF2D70420E0C9BD4D838 /* SubscriptionDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA7F1C1E519670CFD66BCEAFEC4E485 /* SubscriptionDisposable.swift */; };
+		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EF6F2EFF34D260CC831794D4AE3404 /* CoreGraphics.framework */; };
+		B0BE8BF01E52783D783CFAA8917B98E3 /* InvocableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CBD06E81EE87CD470862E0EE77E70A /* InvocableType.swift */; };
+		B1CEC653E8926D6CD81D8AFABA2F03B1 /* Never.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E7DDCC65F1477B8608CC72C092A3A /* Never.swift */; };
+		B32EF1FCB0BF993AB6AC7802CB0DB3E9 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BC6E2E02E2CFEBD8B80DB5B27A8DD /* SwiftSupport.swift */; };
+		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082870497C31D3A7BEB4FC515B97665 /* Request.swift */; };
+		B3869F8B5002FEC4300C46B70D4407C2 /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D93EF2CFF4C828486211507DB49ABC0 /* InfiniteSequence.swift */; };
+		B440F3C87778682DA6EB87E441223947 /* HistoricalScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD03B5B02A03D4DACACB03AA508AE8BA /* HistoricalScheduler.swift */; };
+		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFB9AEFCABDC2B21C5226C29727B2E7 /* QuartzCore.framework */; };
+		B6CD1F770CD468C9720879794345773F /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE4FDA02F11BDB9E229C07152951D7 /* PriorityQueue.swift */; };
+		B6D96BF1905E938CC1550663E0E968D8 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CAE2AC757AA540B11F14214697F408 /* AtomicInt.swift */; };
+		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11516B67F1176CF978BFFEE297E4F /* ServerTrustEvaluation.swift */; };
+		B8A430896EA4B0C96B8F57B9799A79A5 /* HistoricalSchedulerTimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B86B9352AD2FEF464E67784AAA022 /* HistoricalSchedulerTimeConverter.swift */; };
+		B93295CD8E534490864EC5EA7B144ECA /* BooleanDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE12233B343120FC4D040AA1D89E52 /* BooleanDisposable.swift */; };
+		B9FCD6CD909D958D3A2453BAC7FFAA75 /* Completable+AndThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ED1F6BE2B6B4E383CEE9A372B656F4 /* Completable+AndThen.swift */; };
+		BA49FA81C33B9AC1A8B950AF87943968 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1713871FA0F8B013CDF7A1C0E6A490FA /* Generate.swift */; };
+		BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E857EDD10BE3357BF86089E60AB6D9 /* URLRequest+Alamofire.swift */; };
+		BCAAED2C26D553DDC54E4CE9BA6492F2 /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687202F42026D48E7FB58E7BBFBBFC9 /* CompactMap.swift */; };
+		BCCC3D9EA23B1133EB18D414340313C4 /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80460BB6F46A18C6E97FC40BFBD379E /* ObservableType.swift */; };
+		C006486E77138957EA598E11A16B1BCE /* Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5059D71B05BABF0B572A3C6106EF98E4 /* Catch.swift */; };
+		C3394EE771A142B4EDB26989A376F5A9 /* MainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2147AD1A16F596CEAB1C62C2CA7E2DD9 /* MainScheduler.swift */; };
+		C509829624E96E4A34B66516A01CB5E5 /* ObservableType+PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6904EC1BCD0C206E38FAE508F5DD1 /* ObservableType+PrimitiveSequence.swift */; };
+		C54AC9D222E80837102D4339E8F999C6 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A902E713FD2701D7CFA4A4D42E2C9 /* Throttle.swift */; };
+		C7BD84A884673DD45D788B284CE4DFA6 /* SynchronizedUnsubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A31C85F2E138A5F2E8F8366B4452C3B /* SynchronizedUnsubscribeType.swift */; };
+		C8546C4EB10EAC109460308021CA718C /* VirtualTimeConverterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA48D581195DB32AB7CBC7FD4D13BEA /* VirtualTimeConverterType.swift */; };
+		C9533C80832CC3B2580C808D816B9EA8 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27403C3DF8F81B5DB158FDFA83564BAF /* AnonymousDisposable.swift */; };
+		CC74E97D48A46F54146A1746679335F0 /* SchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F4CF65859DD954099B8AEF2B556B4A /* SchedulerType.swift */; };
+		CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE41DBB6DC47D9FED473D5BEED763 /* EventMonitor.swift */; };
+		CED380635575FFCE8BD164BA255AE139 /* CurrentThreadScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA96176A79EFA29F91D968A48D87CEC /* CurrentThreadScheduler.swift */; };
+		D04E136F7EB38AC7982E586CC551CCF6 /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B758CEC94EE75F76D29B607BD46A1F /* ToArray.swift */; };
+		D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8E7275FBDBDAED4716AC7035245C3 /* AFError.swift */; };
+		D1A4EE598EC6F041DC1F8D1C4A037E75 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8929A0DB3C7EDA5D8FD9F60F582FEA36 /* Reactive.swift */; };
+		D25E7D0AE33E2E5F1A0776A70A71E809 /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFE7FC312F66E3F2A7EAAB0CE5D609 /* ObservableConvertibleType.swift */; };
+		D5D35C4D80982CF4DEA8F8CA28E7F9B3 /* RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E94DEA23E3308E1D7063BF3E87F44 /* RetryWhen.swift */; };
+		D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8767853615F21AFAA59D164D11BE5EC /* HTTPMethod.swift */; };
+		DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69241F4576BDD2D6D366B1A96AE5482D /* RequestTaskMap.swift */; };
+		DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF03DDC29855BC8914EF0CA9475406 /* RequestInterceptor.swift */; };
+		DDB8588E6E16473ACB1BBF4E90C5BB37 /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95135E2AAA5FA20D749969585510AB3C /* AnyObserver.swift */; };
+		DE8725535F4E94F5FD00282E9E24E160 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91001A34947C7C72645D1CFD26317A8F /* Optional.swift */; };
+		DEFB359FB6836F5D3B5A87ACFF2488DF /* AsSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778D8B1EF063EE4DCA0A4A6161A2CC4E /* AsSingle.swift */; };
+		DFCBD7DE97F3C558FBE5279A93259BB9 /* Using.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6019B750923ACB67554FA53A3F713223 /* Using.swift */; };
+		E11579EC723AA5D3FC32D15F766C5728 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37023B64A6EE8C7A805929BB5E331431 /* Rx.swift */; };
+		E11C236EA5D17CB9BCB2788C87039AC5 /* ObserverBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1479D5B29F572A2170B1D34BFC9F3FC /* ObserverBase.swift */; };
+		E29350ACDBBA9B3B591E811382234BBF /* ReplaySubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCFA2419D683AF8B25E2FE10B7A6443 /* ReplaySubject.swift */; };
+		E3CC6A133BE652166B7E71E18A951DC1 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC7FFFC23BC0D3C6225C0D013ACE2D /* Single.swift */; };
+		E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A85D1BF542BED1BBEBF6FFBAAD8F0 /* OperationQueue+Alamofire.swift */; };
+		E871185783CDFF137812EE3CF7579ECF /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53078A3A770FC24887BE097C44FD076 /* DisposeBase.swift */; };
+		E8F3DE9BEB998B45E83647233F51E263 /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33331A250C652CD31D57C6A65267FB77 /* DispatchQueueConfiguration.swift */; };
+		E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F746E5929414E92EFCA76E95AB3C3362 /* MultipartUpload.swift */; };
+		EA811C7D83F056ADDCFB2296BDFEF01E /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A21F78194A503F261AA06C78BD93F2 /* Empty.swift */; };
+		EC1B71EF0475948050F721E0C4BECD6C /* ConcurrentMainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF3B934E1A77FEBA5F4D6963C345A09 /* ConcurrentMainScheduler.swift */; };
+		EC21719393E34D87D6FF6FD81865AE62 /* RxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 337A15C1DBDD9D7C6ABE69489F906271 /* RxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC4DAF30E5E6992341B4650E09A2C3C1 /* ObserveOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE17DE79B84D1C1CCA27F4FA6019E9 /* ObserveOn.swift */; };
+		EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1850DCC9C22641EB683057AFEC1AAD4 /* DispatchQueue+Alamofire.swift */; };
+		F011372633695C8A45D695B02BF514E5 /* Disposables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EFE8AB863B6073F37A0F8131801599 /* Disposables.swift */; };
+		F0C81DE470D29695790035820C904F4B /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D843437FF77423E677C7C6873BD9430E /* Multicast.swift */; };
+		F126DAB49F8EB48A414DED3CBCDDBDF0 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBA13388950C776441B50B13A0ED9B /* Debug.swift */; };
+		F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5014057DD761FA4F0491AC3B46007D /* Alamofire.swift */; };
+		F54EED2366383AA126EA608AE74C78E4 /* Completable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DEB8B072A9F88B5D15571330779D7E /* Completable.swift */; };
+		F80F4022491C57DE67E998E14DD94C1C /* TakeWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684246AB65835B05340F59F5D7EC8E7D /* TakeWhile.swift */; };
+		F8BEA00F44E234087637654C306B497B /* SingleAssignmentDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264ED6509F62EE68DE8CC8C7C8CF868 /* SingleAssignmentDisposable.swift */; };
+		F9670BCC8F93A39C0579C194F75579A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61006233C7F4698D9F014E78EBE56E70 /* Foundation.framework */; };
+		FD80F935EE17E0875BBE838A29648B06 /* SerialDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7066E6EB341510E6D4CF1EB79713D /* SerialDisposable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		069AD6CBE229D5DF53535D2B41F67FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		23D6A6F6F4C096FD8F0CDAD10E873A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
+			remoteInfo = RxSwift;
+		};
+		4439B694D0C4AF9B4359E5994B80E594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0FD6BC25A6A8758491ECBC0CAC134F3;
+			remoteInfo = "Pods-WeatherForecast";
+		};
+		7607F8ED06C09BBF0F65E95D5F5F4ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		B2457EDD98E71509452A2C40376884B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		D82E4F657F6B5B70B4D8153B145DAA62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
+			remoteInfo = RxSwift;
+		};
+		DEA660DC27D47667F57BDB74C92E7C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038CBCA29A664EC0D72DE9019815B52B /* ConcurrentDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentDispatchQueueScheduler.swift; path = RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift; sourceTree = "<group>"; };
+		03DCD4FCAAB55F3F5106482D573B637D /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		0521F589C72BCF3CAE38FD27CBD6CED7 /* Just.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Just.swift; path = RxSwift/Observables/Just.swift; sourceTree = "<group>"; };
+		05976B9BDA2955FC5F7BACC80C590B49 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		05E8ECDCEA882401C80EDC403DD7437D /* TailRecursiveSink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TailRecursiveSink.swift; path = RxSwift/Observers/TailRecursiveSink.swift; sourceTree = "<group>"; };
+		0625CB338D2388381D645A5C5A3CB69E /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = RxSwift/Observables/Sequence.swift; sourceTree = "<group>"; };
+		062DB263BE5BEA8EFAE0C2C5E05FBA96 /* RxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwift.modulemap; sourceTree = "<group>"; };
+		06EF6F2EFF34D260CC831794D4AE3404 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		07F8D86E09CD23B552AE94173BC8654C /* Buffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Buffer.swift; path = RxSwift/Observables/Buffer.swift; sourceTree = "<group>"; };
+		099019CE04B92F7D9DE74D4594E1E115 /* Take.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Take.swift; path = RxSwift/Observables/Take.swift; sourceTree = "<group>"; };
+		0CA48D581195DB32AB7CBC7FD4D13BEA /* VirtualTimeConverterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeConverterType.swift; path = RxSwift/Schedulers/VirtualTimeConverterType.swift; sourceTree = "<group>"; };
+		1184DA2911EE32ACAB1F03490C8CAC49 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence.swift; sourceTree = "<group>"; };
+		1238D40E047B23EC5A37C8D599C72054 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		1261D55487B6DC2A50E1655943F98191 /* AsMaybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsMaybe.swift; path = RxSwift/Observables/AsMaybe.swift; sourceTree = "<group>"; };
+		12793811DD89FA418DA4A0F13F9BA219 /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = RxSwift/Disposable.swift; sourceTree = "<group>"; };
+		1713871FA0F8B013CDF7A1C0E6A490FA /* Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generate.swift; path = RxSwift/Observables/Generate.swift; sourceTree = "<group>"; };
+		1868E45CA86637FCC0DD385482BC4B42 /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIfEmpty.swift; path = RxSwift/Observables/DefaultIfEmpty.swift; sourceTree = "<group>"; };
+		194F7351A0DB6AE27D787243AE1FD982 /* Pods-WeatherForecastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherForecastTests.release.xcconfig"; sourceTree = "<group>"; };
+		19864B36EB5859166831A91C93B152F4 /* Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reduce.swift; path = RxSwift/Observables/Reduce.swift; sourceTree = "<group>"; };
+		1A19A27ED2601952ACD1B26D1619F57C /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		1A80A5DEF78FAD6AC7EE16BCEB328924 /* RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.debug.xcconfig; sourceTree = "<group>"; };
+		1C6AC472BC3AA22685B36B6646F3E167 /* StartWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartWith.swift; path = RxSwift/Observables/StartWith.swift; sourceTree = "<group>"; };
+		1CF9C131B0DA0F6D1EE930594FF264BB /* Pods-WeatherForecast-WeatherForecastUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WeatherForecast-WeatherForecastUITests"; path = Pods_WeatherForecast_WeatherForecastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D93EF2CFF4C828486211507DB49ABC0 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
+		1DEF9547D415D97EDAAB3339548FA1FC /* First.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = First.swift; path = RxSwift/Observables/First.swift; sourceTree = "<group>"; };
+		1E3B635822977B4A747F33BE7BC91FA9 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1FDBA13388950C776441B50B13A0ED9B /* Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debug.swift; path = RxSwift/Observables/Debug.swift; sourceTree = "<group>"; };
+		1FE96BA8ADDB41B4E9516B268D2A115A /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
+		20CE4FDA02F11BDB9E229C07152951D7 /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
+		2147AD1A16F596CEAB1C62C2CA7E2DD9 /* MainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainScheduler.swift; path = RxSwift/Schedulers/MainScheduler.swift; sourceTree = "<group>"; };
+		233A295061E704FC6F0AA7FB6BE793C0 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = RxSwift/Observables/Map.swift; sourceTree = "<group>"; };
+		25C2754DA9664885B6E43D501BFBA97A /* RxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-prefix.pch"; sourceTree = "<group>"; };
+		25DEB8B072A9F88B5D15571330779D7E /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completable.swift; path = RxSwift/Traits/Completable.swift; sourceTree = "<group>"; };
+		26F373EECDD96FE46B3227B65CD65B14 /* CompositeDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositeDisposable.swift; path = RxSwift/Disposables/CompositeDisposable.swift; sourceTree = "<group>"; };
+		27403C3DF8F81B5DB158FDFA83564BAF /* AnonymousDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousDisposable.swift; path = RxSwift/Disposables/AnonymousDisposable.swift; sourceTree = "<group>"; };
+		27CAE2AC757AA540B11F14214697F408 /* AtomicInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomicInt.swift; path = Platform/AtomicInt.swift; sourceTree = "<group>"; };
+		286B54AACF646AEA5E9C872C14D52F0D /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+Extensions.swift"; path = "RxSwift/ObservableType+Extensions.swift"; sourceTree = "<group>"; };
+		2A31C85F2E138A5F2E8F8366B4452C3B /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedUnsubscribeType.swift; path = RxSwift/Concurrency/SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
+		2A437C91FDD419E699541D586A0DA597 /* Pods-WeatherForecast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherForecast-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BB59304680DB6EF46A65C9E2A405227 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RxSwift/Observables/Error.swift; sourceTree = "<group>"; };
+		2F0875292491530D867E8FBE39266F8E /* CombineLatest+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+arity.swift"; path = "RxSwift/Observables/CombineLatest+arity.swift"; sourceTree = "<group>"; };
+		2F180A9B154B50766EBE5A7E86D301CB /* Zip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zip.swift; path = RxSwift/Observables/Zip.swift; sourceTree = "<group>"; };
+		2FAD90264B2DF3708E7EBFE102C786C6 /* Pods-WeatherForecast-WeatherForecastUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherForecast-WeatherForecastUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31EA5D0C4E0B8D51CE399280BF041397 /* SubscribeOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscribeOn.swift; path = RxSwift/Observables/SubscribeOn.swift; sourceTree = "<group>"; };
+		31F0649622E4445AEAE1E30BF8C778E0 /* AsyncSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncSubject.swift; path = RxSwift/Subjects/AsyncSubject.swift; sourceTree = "<group>"; };
+		3212E314B17D25AB7A0897D7B5A589A4 /* OperationQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationQueueScheduler.swift; path = RxSwift/Schedulers/OperationQueueScheduler.swift; sourceTree = "<group>"; };
+		32D09E358988851FC93EA31FC2B9A155 /* ShareReplayScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareReplayScope.swift; path = RxSwift/Observables/ShareReplayScope.swift; sourceTree = "<group>"; };
+		33331A250C652CD31D57C6A65267FB77 /* DispatchQueueConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueConfiguration.swift; path = RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift; sourceTree = "<group>"; };
+		337A15C1DBDD9D7C6ABE69489F906271 /* RxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-umbrella.h"; sourceTree = "<group>"; };
+		36ED1F6BE2B6B4E383CEE9A372B656F4 /* Completable+AndThen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Completable+AndThen.swift"; path = "RxSwift/Traits/Completable+AndThen.swift"; sourceTree = "<group>"; };
+		37023B64A6EE8C7A805929BB5E331431 /* Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rx.swift; path = RxSwift/Rx.swift; sourceTree = "<group>"; };
+		3929B8979BA6D9B46D165C84322C39D6 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		3CCFA2419D683AF8B25E2FE10B7A6443 /* ReplaySubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaySubject.swift; path = RxSwift/Subjects/ReplaySubject.swift; sourceTree = "<group>"; };
+		3CF6904EC1BCD0C206E38FAE508F5DD1 /* ObservableType+PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+PrimitiveSequence.swift"; path = "RxSwift/Traits/ObservableType+PrimitiveSequence.swift"; sourceTree = "<group>"; };
+		3E3968E24D8F47D58DEB2690522B95C0 /* PublishSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublishSubject.swift; path = RxSwift/Subjects/PublishSubject.swift; sourceTree = "<group>"; };
+		3F6DDB886E06F46CADBFB7B61583328F /* WithLatestFrom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithLatestFrom.swift; path = RxSwift/Observables/WithLatestFrom.swift; sourceTree = "<group>"; };
+		41C7AA98AB6D23F3743510FEED8CD9FF /* Pods-WeatherForecastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherForecastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44329DB87ED1226FA94B3F8EA6D6D455 /* Repeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeat.swift; path = RxSwift/Observables/Repeat.swift; sourceTree = "<group>"; };
+		44362FF756EA1CA5C5C424038BAF0BCE /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		446E7DDCC65F1477B8608CC72C092A3A /* Never.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Never.swift; path = RxSwift/Observables/Never.swift; sourceTree = "<group>"; };
+		44BCCD4FB66968291E05AB60393B8EF0 /* Scan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scan.swift; path = RxSwift/Observables/Scan.swift; sourceTree = "<group>"; };
+		45F7F6626F4D6F62167D9CDFB63A0383 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		461564EE838DEA91209DF3EFCAFE2005 /* RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.release.xcconfig; sourceTree = "<group>"; };
+		468822B2BC099C903EC35ADFB519497A /* DelaySubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaySubscription.swift; path = RxSwift/Observables/DelaySubscription.swift; sourceTree = "<group>"; };
+		479641EEB43AE52B0B4D6BD10CC29A11 /* Pods-WeatherForecast-WeatherForecastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherForecast-WeatherForecastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD3E13C39B6229FE878C9478CBBDEBF /* GroupBy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupBy.swift; path = RxSwift/Observables/GroupBy.swift; sourceTree = "<group>"; };
+		4D1E6992569DD6A0FCC8652DA64FFB4F /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		4D79F2A082068B01F18C710A54467437 /* NopDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NopDisposable.swift; path = RxSwift/Disposables/NopDisposable.swift; sourceTree = "<group>"; };
+		4E2A902E713FD2701D7CFA4A4D42E2C9 /* Throttle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttle.swift; path = RxSwift/Observables/Throttle.swift; sourceTree = "<group>"; };
+		4F9A85D1BF542BED1BBEBF6FFBAAD8F0 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		4FA7F1C1E519670CFD66BCEAFEC4E485 /* SubscriptionDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionDisposable.swift; path = RxSwift/Disposables/SubscriptionDisposable.swift; sourceTree = "<group>"; };
+		5059D71B05BABF0B572A3C6106EF98E4 /* Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catch.swift; path = RxSwift/Observables/Catch.swift; sourceTree = "<group>"; };
+		50F5721772F6AC0C11B589291A8DB55F /* Dematerialize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dematerialize.swift; path = RxSwift/Observables/Dematerialize.swift; sourceTree = "<group>"; };
+		51C818BC8B1217AE56DB12DA5F05B5AC /* TakeUntil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeUntil.swift; path = RxSwift/Observables/TakeUntil.swift; sourceTree = "<group>"; };
+		5251F3B5B4C178EB36E30255EA2D91C4 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		5264ED6509F62EE68DE8CC8C7C8CF868 /* SingleAssignmentDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleAssignmentDisposable.swift; path = RxSwift/Disposables/SingleAssignmentDisposable.swift; sourceTree = "<group>"; };
+		543EC324EDCC3C042F1F30F6B41795B0 /* RecursiveScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveScheduler.swift; path = RxSwift/Schedulers/RecursiveScheduler.swift; sourceTree = "<group>"; };
+		54D7FC0EDA3FDE02941F88326C189970 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		555BCF2D8F8CC962E696490215E48B93 /* RxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxSwift-Info.plist"; sourceTree = "<group>"; };
+		56777F68CD7908D65702AFEFE0189412 /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = RxSwift/Concurrency/Lock.swift; sourceTree = "<group>"; };
+		57812B84756967AABBB4A63A5EDBE5A7 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		57AD26EBD3299988637928BA984F2CFA /* LockOwnerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockOwnerType.swift; path = RxSwift/Concurrency/LockOwnerType.swift; sourceTree = "<group>"; };
+		5850E9F210A34A2738F210F41A9984E8 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		5958E8050010C9C1E9EE8141C2DC455C /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		59DCE091E2EBD7B109193F07FE1A02B2 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		5BE534CD60D5808A4D7D0CE5AC7E136A /* Producer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Producer.swift; path = RxSwift/Observables/Producer.swift; sourceTree = "<group>"; };
+		5D77A7D44C99E7F0DE7939615C39AC53 /* Amb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Amb.swift; path = RxSwift/Observables/Amb.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFF03DDC29855BC8914EF0CA9475406 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		5F4BC6E2E02E2CFEBD8B80DB5B27A8DD /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = RxSwift/SwiftSupport/SwiftSupport.swift; sourceTree = "<group>"; };
+		5F67A7141127DB74E1E101B19A6614F3 /* RxMutableBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxMutableBox.swift; path = RxSwift/RxMutableBox.swift; sourceTree = "<group>"; };
+		5FFBF1617B6CAD8853FC06EDC7EFC61B /* Pods-WeatherForecast-WeatherForecastUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherForecast-WeatherForecastUITests-Info.plist"; sourceTree = "<group>"; };
+		6019B750923ACB67554FA53A3F713223 /* Using.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Using.swift; path = RxSwift/Observables/Using.swift; sourceTree = "<group>"; };
+		61006233C7F4698D9F014E78EBE56E70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6253B53EB171A36396EFE2A1092D8B27 /* Pods-WeatherForecast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherForecast-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63670D95EB45F91AF1612E95EAA0D7D9 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		676133691C531ED613F636D8C20578B7 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		67BCBF299B0CF1ED2FCA9D9F3066C8F2 /* GroupedObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupedObservable.swift; path = RxSwift/GroupedObservable.swift; sourceTree = "<group>"; };
+		684246AB65835B05340F59F5D7EC8E7D /* TakeWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeWhile.swift; path = RxSwift/Observables/TakeWhile.swift; sourceTree = "<group>"; };
+		687596E6121454C1D7BDD65350DCC6FF /* Pods-WeatherForecast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherForecast-Info.plist"; sourceTree = "<group>"; };
+		69241F4576BDD2D6D366B1A96AE5482D /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		6A9F66BC410D4AF5CEA1174E76CFECA8 /* SynchronizedOnType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedOnType.swift; path = RxSwift/Concurrency/SynchronizedOnType.swift; sourceTree = "<group>"; };
+		6ADE12233B343120FC4D040AA1D89E52 /* BooleanDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanDisposable.swift; path = RxSwift/Disposables/BooleanDisposable.swift; sourceTree = "<group>"; };
+		6CD09797191812E6AD99F0A2499406DE /* SkipUntil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipUntil.swift; path = RxSwift/Observables/SkipUntil.swift; sourceTree = "<group>"; };
+		6E6C8DA0A02150A8952B8CC734459B87 /* AnonymousObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousObserver.swift; path = RxSwift/Observers/AnonymousObserver.swift; sourceTree = "<group>"; };
+		6EE7C846341330FE6F5044A04C873EE4 /* Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeout.swift; path = RxSwift/Observables/Timeout.swift; sourceTree = "<group>"; };
+		6FCF193AFBDFF553A9E6A6D2A01DB312 /* BehaviorSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BehaviorSubject.swift; path = RxSwift/Subjects/BehaviorSubject.swift; sourceTree = "<group>"; };
+		70B5B9855D5B88043B5F4C7DABA0FA95 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		73D8E7275FBDBDAED4716AC7035245C3 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		73EFE8AB863B6073F37A0F8131801599 /* Disposables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposables.swift; path = RxSwift/Disposables/Disposables.swift; sourceTree = "<group>"; };
+		7648C47FCEA662EC53ECEEA38E643E8F /* Pods-WeatherForecast-WeatherForecastUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherForecast-WeatherForecastUITests-dummy.m"; sourceTree = "<group>"; };
+		778D8B1EF063EE4DCA0A4A6161A2CC4E /* AsSingle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsSingle.swift; path = RxSwift/Observables/AsSingle.swift; sourceTree = "<group>"; };
+		77E857EDD10BE3357BF86089E60AB6D9 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		7842265E2EE1142B2409DE3410244DA2 /* Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Create.swift; path = RxSwift/Observables/Create.swift; sourceTree = "<group>"; };
+		7A5486553CE8C5294682BD26C7431E36 /* Pods-WeatherForecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherForecast.debug.xcconfig"; sourceTree = "<group>"; };
+		7B01AF39D649DB8439594B9C0398237A /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		7B5014057DD761FA4F0491AC3B46007D /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		7BFB9AEFCABDC2B21C5226C29727B2E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7BFE17DE79B84D1C1CCA27F4FA6019E9 /* ObserveOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserveOn.swift; path = RxSwift/Observables/ObserveOn.swift; sourceTree = "<group>"; };
+		7E72D25547E241A8D5C6D61D63823689 /* Bag+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bag+Rx.swift"; path = "RxSwift/Extensions/Bag+Rx.swift"; sourceTree = "<group>"; };
+		804466CB6363A4675378B28D7F1F8BA4 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DF6313547625E833AA805A31516150 /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
+		81A719BD99E0126F63724D6EF3638A8A /* Pods-WeatherForecast-WeatherForecastUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherForecast-WeatherForecastUITests.modulemap"; sourceTree = "<group>"; };
+		81B6671906D74F4E4AC17F70CBB18B6F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		853D79EC09368555AB8D2FB536273BC3 /* Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Merge.swift; path = RxSwift/Observables/Merge.swift; sourceTree = "<group>"; };
+		85A21F78194A503F261AA06C78BD93F2 /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = RxSwift/Observables/Empty.swift; sourceTree = "<group>"; };
+		8687202F42026D48E7FB58E7BBFBBFC9 /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = RxSwift/Observables/CompactMap.swift; sourceTree = "<group>"; };
+		88738351371E397789B3F0737B2D6D13 /* Pods-WeatherForecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherForecast.release.xcconfig"; sourceTree = "<group>"; };
+		8873E70A149F71ED37BA6652E189105F /* ConnectableObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectableObservableType.swift; path = RxSwift/ConnectableObservableType.swift; sourceTree = "<group>"; };
+		8929A0DB3C7EDA5D8FD9F60F582FEA36 /* Reactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reactive.swift; path = RxSwift/Reactive.swift; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDDC3FAE52A49633E4BA04502490B39 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		90190E84D7425EA683A1B3F3C085521E /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		90244FCF893C21048525AE2150A330A1 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = RxSwift/Errors.swift; sourceTree = "<group>"; };
+		9082870497C31D3A7BEB4FC515B97665 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		91001A34947C7C72645D1CFD26317A8F /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RxSwift/Observables/Optional.swift; sourceTree = "<group>"; };
+		9102CD029A4DE54624689D2DFCB84875 /* Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Do.swift; path = RxSwift/Observables/Do.swift; sourceTree = "<group>"; };
+		9215B555AF2DBAC0EFA3D627D01790C1 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		9253E3A157C11C702D3374FC13C21A1A /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = RxSwift/Observables/Filter.swift; sourceTree = "<group>"; };
+		92B758CEC94EE75F76D29B607BD46A1F /* ToArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToArray.swift; path = RxSwift/Observables/ToArray.swift; sourceTree = "<group>"; };
+		94672A88D9B8F4550C88225EAD7148DE /* DistinctUntilChanged.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistinctUntilChanged.swift; path = RxSwift/Observables/DistinctUntilChanged.swift; sourceTree = "<group>"; };
+		94E7066E6EB341510E6D4CF1EB79713D /* SerialDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDisposable.swift; path = RxSwift/Disposables/SerialDisposable.swift; sourceTree = "<group>"; };
+		95135E2AAA5FA20D749969585510AB3C /* AnyObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyObserver.swift; path = RxSwift/AnyObserver.swift; sourceTree = "<group>"; };
+		95AAF02E04A3B6F07683F5ACA41085BA /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		965D091C830B79903F3B158841B4B82C /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = RxSwift/Observable.swift; sourceTree = "<group>"; };
+		96AD1A726FC5E7FA9ED0D141F6A41251 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		987D2BBCB0D575B7DF894326D689B486 /* Switch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Switch.swift; path = RxSwift/Observables/Switch.swift; sourceTree = "<group>"; };
+		99B266BAD51A2D1C68233A7E7262016D /* RxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxSwift-dummy.m"; sourceTree = "<group>"; };
+		9BF4FB3AD37678FB6CD101E7F371C2BC /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		9CCF46D8C2514AC5A4B378886FE4EC9C /* ImmediateSchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmediateSchedulerType.swift; path = RxSwift/ImmediateSchedulerType.swift; sourceTree = "<group>"; };
+		9D0101778B81571B764504B61BB3163F /* Pods-WeatherForecastTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherForecastTests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDBB1D87F1C2E45CA0B49EBE3DEDF49 /* Sink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sink.swift; path = RxSwift/Observables/Sink.swift; sourceTree = "<group>"; };
+		9EF3B934E1A77FEBA5F4D6963C345A09 /* ConcurrentMainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentMainScheduler.swift; path = RxSwift/Schedulers/ConcurrentMainScheduler.swift; sourceTree = "<group>"; };
+		9F2C52AC91073A08A8D2265ECBCD5FB7 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		A0DEA775467C4ACBE735312D5D1D7DE2 /* DisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = RxSwift/Disposables/DisposeBag.swift; sourceTree = "<group>"; };
+		A1479D5B29F572A2170B1D34BFC9F3FC /* ObserverBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverBase.swift; path = RxSwift/Observers/ObserverBase.swift; sourceTree = "<group>"; };
+		A1F923690D045403B582DB5B8135F611 /* Pods-WeatherForecast-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherForecast-frameworks.sh"; sourceTree = "<group>"; };
+		A475585FF233C2722119A91F1530A8E5 /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = RxSwift/Observables/Delay.swift; sourceTree = "<group>"; };
+		A58F2F6274B010099D27EBBE00473EC9 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		A5ECF8BB7BE010D3338940D1DE685FAF /* Date+Dispatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Dispatch.swift"; path = "RxSwift/Date+Dispatch.swift"; sourceTree = "<group>"; };
+		A7B381066FE1988293B075F1BF0A6541 /* PrimitiveSequence+Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PrimitiveSequence+Zip+arity.swift"; path = "RxSwift/Traits/PrimitiveSequence+Zip+arity.swift"; sourceTree = "<group>"; };
+		A8BBC9A5CBAEA899031216FD551FDD53 /* Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = RxSwift/Observables/Timer.swift; sourceTree = "<group>"; };
+		A8E4DF17F3AE6777A46F7A2E8ED306A1 /* CombineLatest+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+Collection.swift"; path = "RxSwift/Observables/CombineLatest+Collection.swift"; sourceTree = "<group>"; };
+		A99DC6B66069B963663007AF8560A7C7 /* ScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItem.swift; path = RxSwift/Schedulers/Internal/ScheduledItem.swift; sourceTree = "<group>"; };
+		A9E7211CA6ED3E6679C4EB56EB0E3017 /* AddRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddRef.swift; path = RxSwift/Observables/AddRef.swift; sourceTree = "<group>"; };
+		AB77227FFD8D8F496E3DE052ABCDB7C3 /* Cancelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancelable.swift; path = RxSwift/Cancelable.swift; sourceTree = "<group>"; };
+		AD03B5B02A03D4DACACB03AA508AE8BA /* HistoricalScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalScheduler.swift; path = RxSwift/Schedulers/HistoricalScheduler.swift; sourceTree = "<group>"; };
+		ADD7288F3628F67CDFA011A263B228A5 /* Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+arity.swift"; path = "RxSwift/Observables/Zip+arity.swift"; sourceTree = "<group>"; };
+		AF98ADF7E48E1FFC352A4FF938EEC39C /* Sample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sample.swift; path = RxSwift/Observables/Sample.swift; sourceTree = "<group>"; };
+		B10A3416A30EEC7B7EF5C2298BBFAC0A /* Pods-WeatherForecast-WeatherForecastUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherForecast-WeatherForecastUITests-umbrella.h"; sourceTree = "<group>"; };
+		B162AEA0E9E0ABB8836072A959E6824E /* Concat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concat.swift; path = RxSwift/Observables/Concat.swift; sourceTree = "<group>"; };
+		B2CBD06E81EE87CD470862E0EE77E70A /* InvocableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocableType.swift; path = RxSwift/Schedulers/Internal/InvocableType.swift; sourceTree = "<group>"; };
+		B327DA01EF63170658FB3A7853D65AD9 /* Pods-WeatherForecastTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherForecastTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B553CEF19DDC9A025CD0807251904D95 /* ObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverType.swift; path = RxSwift/ObserverType.swift; sourceTree = "<group>"; };
+		B733F527DADA8564604B4E6B4EBE7B09 /* Pods-WeatherForecast-WeatherForecastUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherForecast-WeatherForecastUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7C59B503C4AA9F73E8DE425DD57E987 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		BB8C9AA7C97C85A594577A9D961F5EC7 /* ElementAt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementAt.swift; path = RxSwift/Observables/ElementAt.swift; sourceTree = "<group>"; };
+		BC2A235B27E23C7AF158AAE404C034F4 /* Pods-WeatherForecast-WeatherForecastUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherForecast-WeatherForecastUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BD10984D0116393B62748FEF33419EC0 /* Pods-WeatherForecast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherForecast-umbrella.h"; sourceTree = "<group>"; };
+		BD20EE446682A760AF76465D9E8DEFC8 /* Pods-WeatherForecast */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WeatherForecast"; path = Pods_WeatherForecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE36672F6D0C4E0ADB2F816B1701B171 /* Pods-WeatherForecast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherForecast-dummy.m"; sourceTree = "<group>"; };
+		BE9A4F00EC1B005AC5DFA6F409152AAA /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = RxSwift/Observables/Debounce.swift; sourceTree = "<group>"; };
+		C0C3E8374324776B263AF4558721CAA5 /* RefCountDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefCountDisposable.swift; path = RxSwift/Disposables/RefCountDisposable.swift; sourceTree = "<group>"; };
+		C553791060E8D6E7B2CFD97C07325D93 /* SchedulerServices+Emulation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SchedulerServices+Emulation.swift"; path = "RxSwift/Schedulers/SchedulerServices+Emulation.swift"; sourceTree = "<group>"; };
+		C72D59A5A6D65175FC652B9D17BBD8C4 /* TakeLast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeLast.swift; path = RxSwift/Observables/TakeLast.swift; sourceTree = "<group>"; };
+		C80460BB6F46A18C6E97FC40BFBD379E /* ObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableType.swift; path = RxSwift/ObservableType.swift; sourceTree = "<group>"; };
+		CBAC8D03272455B5A4F11DC25BA9707B /* SubjectType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubjectType.swift; path = RxSwift/Subjects/SubjectType.swift; sourceTree = "<group>"; };
+		CCA6F1BDC8AF97F8DEDFBEE64FFF6332 /* SwitchIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchIfEmpty.swift; path = RxSwift/Observables/SwitchIfEmpty.swift; sourceTree = "<group>"; };
+		CCCEE41DBB6DC47D9FED473D5BEED763 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		CCF9304D5255AE9798C81AA9B59CFF64 /* Pods-WeatherForecastTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherForecastTests-umbrella.h"; sourceTree = "<group>"; };
+		CDA96176A79EFA29F91D968A48D87CEC /* CurrentThreadScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentThreadScheduler.swift; path = RxSwift/Schedulers/CurrentThreadScheduler.swift; sourceTree = "<group>"; };
+		CE90D3B9B7217BF997132460BA128AB6 /* Deferred.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deferred.swift; path = RxSwift/Observables/Deferred.swift; sourceTree = "<group>"; };
+		D058AC66F4B9D62D5E066AE1F2DAD667 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		D1C5B62CDCC00A84815FF46122E8793F /* Maybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maybe.swift; path = RxSwift/Traits/Maybe.swift; sourceTree = "<group>"; };
+		D2AC71979FDFB40867677D8F68F0788E /* Range.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Range.swift; path = RxSwift/Observables/Range.swift; sourceTree = "<group>"; };
+		D3379CB528F6D36B7F6BA7FF6D2950B2 /* SerialDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDispatchQueueScheduler.swift; path = RxSwift/Schedulers/SerialDispatchQueueScheduler.swift; sourceTree = "<group>"; };
+		D3F4CF65859DD954099B8AEF2B556B4A /* SchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchedulerType.swift; path = RxSwift/SchedulerType.swift; sourceTree = "<group>"; };
+		D53078A3A770FC24887BE097C44FD076 /* DisposeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBase.swift; path = RxSwift/Disposables/DisposeBase.swift; sourceTree = "<group>"; };
+		D750E7DB6F8D6202734CAEC238A4708A /* Pods-WeatherForecast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherForecast.modulemap"; sourceTree = "<group>"; };
+		D843437FF77423E677C7C6873BD9430E /* Multicast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multicast.swift; path = RxSwift/Observables/Multicast.swift; sourceTree = "<group>"; };
+		D8767853615F21AFAA59D164D11BE5EC /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		D8C386DBF3147131B2E46332ACFB0308 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		D8F3C39215799E8BE2FBAF308CA10AF5 /* Pods-WeatherForecast-WeatherForecastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherForecast-WeatherForecastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA5B220FA6BF1E82824F900A384C29C4 /* ScheduledDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledDisposable.swift; path = RxSwift/Disposables/ScheduledDisposable.swift; sourceTree = "<group>"; };
+		DB7315702973D9D7962717F22156764D /* Skip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skip.swift; path = RxSwift/Observables/Skip.swift; sourceTree = "<group>"; };
+		DC20D3FDE5DEC2B38F4C2518DF64DF5D /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		DF1B86B9352AD2FEF464E67784AAA022 /* HistoricalSchedulerTimeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalSchedulerTimeConverter.swift; path = RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift; sourceTree = "<group>"; };
+		DF3923244265A579C9D98F0323F21EA9 /* Pods-WeatherForecastTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherForecastTests-Info.plist"; sourceTree = "<group>"; };
+		DFD11516B67F1176CF978BFFEE297E4F /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		E01F58560BE8697F7FB457BC5BDD2D5B /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		E16F58BEDD213B2F8195229B0C1AD733 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		E22AE6ED9B59B98FB523B0D71B464579 /* SkipWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipWhile.swift; path = RxSwift/Observables/SkipWhile.swift; sourceTree = "<group>"; };
+		E29729C842F2393A1646977FF91ECAB4 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = RxSwift/Event.swift; sourceTree = "<group>"; };
+		E2B90CF667BCCF95AF1BF94512B49D5A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		E45D4E2F07E8D7521E1421E391BAA59E /* SingleAsync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleAsync.swift; path = RxSwift/Observables/SingleAsync.swift; sourceTree = "<group>"; };
+		E4C4D8F3DB54C3068FA98B7BE97398B7 /* Pods-WeatherForecastTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WeatherForecastTests"; path = Pods_WeatherForecastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56BFB53891D1D2BB5D93CEF7AEECD70 /* Zip+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+Collection.swift"; path = "RxSwift/Observables/Zip+Collection.swift"; sourceTree = "<group>"; };
+		E6EE4D8CDDE658C41945C752A7A2DFA1 /* VirtualTimeScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeScheduler.swift; path = RxSwift/Schedulers/VirtualTimeScheduler.swift; sourceTree = "<group>"; };
+		EA2A6CCA0E47B93C63FEC03BCE2A3DF3 /* Enumerated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enumerated.swift; path = RxSwift/Observables/Enumerated.swift; sourceTree = "<group>"; };
+		EAF8C7EF0A001F5DDD12A63CC446C7C9 /* Materialize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Materialize.swift; path = RxSwift/Observables/Materialize.swift; sourceTree = "<group>"; };
+		EB713E7D8C3F2AC321604B8CA2AB1135 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		EC3E94DEA23E3308E1D7063BF3E87F44 /* RetryWhen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryWhen.swift; path = RxSwift/Observables/RetryWhen.swift; sourceTree = "<group>"; };
+		EC8E53488E2114E8CA53289E286AE2C0 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Platform/DataStructures/Queue.swift; sourceTree = "<group>"; };
+		EC92BADF4AE75CB8D9AD5486E24729B5 /* InvocableScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocableScheduledItem.swift; path = RxSwift/Schedulers/Internal/InvocableScheduledItem.swift; sourceTree = "<group>"; };
+		ECBE9A07FA9C2E66956A60737EF2A447 /* Pods-WeatherForecastTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherForecastTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED47E351DCD6A6EAF6D5A0B1DB54AD74 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = RxSwift/Deprecated.swift; sourceTree = "<group>"; };
+		EE666377F1B8687A07E8FD67074507E4 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = RxSwift/Observables/Window.swift; sourceTree = "<group>"; };
+		EF3AA43AFAE624002F1DB1A5EA216E71 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
+		EFBB563070871C22EB83584F58CBE524 /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
+		F0E17A333FE6EFDD953EE6EAE8BE43A7 /* ScheduledItemType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItemType.swift; path = RxSwift/Schedulers/Internal/ScheduledItemType.swift; sourceTree = "<group>"; };
+		F1850DCC9C22641EB683057AFEC1AAD4 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		F19A5B85EEFEEE9BB37E538EA7333314 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		F2AFE7FC312F66E3F2A7EAAB0CE5D609 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableConvertibleType.swift; path = RxSwift/ObservableConvertibleType.swift; sourceTree = "<group>"; };
+		F353F4A33370717C56F1947FB522EF56 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		F59A12E1050555E5B779A988F708AA10 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
+		F67EB795373B8FA37F4AC1930DCAE6E5 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F6806CBB4798EDAE6912BA5D5DE1D4A7 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		F6ACCA2DFCA7AD65C796A74F52DCDEFF /* BinaryDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDisposable.swift; path = RxSwift/Disposables/BinaryDisposable.swift; sourceTree = "<group>"; };
+		F746E5929414E92EFCA76E95AB3C3362 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		F77A443FA4D84C46E2B6FBAC01AD256A /* SynchronizedDisposeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDisposeType.swift; path = RxSwift/Concurrency/SynchronizedDisposeType.swift; sourceTree = "<group>"; };
+		F7C9C20294C5DDC338A77E50A826EDE5 /* Pods-WeatherForecastTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherForecastTests-dummy.m"; sourceTree = "<group>"; };
+		FA33E0C3E5C56FE858FF1C92F31AEEF1 /* CombineLatest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineLatest.swift; path = RxSwift/Observables/CombineLatest.swift; sourceTree = "<group>"; };
+		FBEC7FFFC23BC0D3C6225C0D013ACE2D /* Single.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Single.swift; path = RxSwift/Traits/Single.swift; sourceTree = "<group>"; };
+		FF66AC51E0D4F66451B1C9D5573C4526 /* AsyncLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncLock.swift; path = RxSwift/Concurrency/AsyncLock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
+				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CD260DD361300B7C671CCCFA7947AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9670BCC8F93A39C0579C194F75579A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81C858C09BFF71F66112F8B5D6177C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013F885E3B13A8BCF444D062C39B7075 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB440D6A698C81ACA39B51E10A47570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6B21DFDC00B0D7F51C060DE40FA587 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DC8F0C2894774845C1DD2E7CA07B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */,
+				0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */,
+				B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4EDE41642D57A7FCF054CC6A21A4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D4567C30B773513CB15BB63D6093E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E310BA5CD5B4B1BD411CB7915871712 /* Pods-WeatherForecast */ = {
+			isa = PBXGroup;
+			children = (
+				D750E7DB6F8D6202734CAEC238A4708A /* Pods-WeatherForecast.modulemap */,
+				6253B53EB171A36396EFE2A1092D8B27 /* Pods-WeatherForecast-acknowledgements.markdown */,
+				2A437C91FDD419E699541D586A0DA597 /* Pods-WeatherForecast-acknowledgements.plist */,
+				BE36672F6D0C4E0ADB2F816B1701B171 /* Pods-WeatherForecast-dummy.m */,
+				A1F923690D045403B582DB5B8135F611 /* Pods-WeatherForecast-frameworks.sh */,
+				687596E6121454C1D7BDD65350DCC6FF /* Pods-WeatherForecast-Info.plist */,
+				BD10984D0116393B62748FEF33419EC0 /* Pods-WeatherForecast-umbrella.h */,
+				7A5486553CE8C5294682BD26C7431E36 /* Pods-WeatherForecast.debug.xcconfig */,
+				88738351371E397789B3F0737B2D6D13 /* Pods-WeatherForecast.release.xcconfig */,
+			);
+			name = "Pods-WeatherForecast";
+			path = "Target Support Files/Pods-WeatherForecast";
+			sourceTree = "<group>";
+		};
+		20757983CDFD4FA7610CAE41F7193307 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0E56A2D327794EBCC694EB107DAAB35 /* Alamofire */,
+				2FF9B80641B1FB10A62C0D47CF475271 /* MBProgressHUD */,
+				C46CC84ED805CE260B26EA43B19CBA8E /* RxSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		256B4A9DB50F7D07EC88F90F28BDC4C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E310BA5CD5B4B1BD411CB7915871712 /* Pods-WeatherForecast */,
+				E847724613CE1A023A7C985A30C6A38F /* Pods-WeatherForecast-WeatherForecastUITests */,
+				84A9CCE80AE4B5D9422DFC696920C26C /* Pods-WeatherForecastTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2FF9B80641B1FB10A62C0D47CF475271 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F67EB795373B8FA37F4AC1930DCAE6E5 /* MBProgressHUD.h */,
+				1E3B635822977B4A747F33BE7BC91FA9 /* MBProgressHUD.m */,
+				5E9A89C4698FA0939F741BB35249FED2 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		5D1555AC0ABF207A467381048B719F84 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D058AC66F4B9D62D5E066AE1F2DAD667 /* CFNetwork.framework */,
+				06EF6F2EFF34D260CC831794D4AE3404 /* CoreGraphics.framework */,
+				61006233C7F4698D9F014E78EBE56E70 /* Foundation.framework */,
+				7BFB9AEFCABDC2B21C5226C29727B2E7 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E9A89C4698FA0939F741BB35249FED2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05976B9BDA2955FC5F7BACC80C590B49 /* MBProgressHUD.modulemap */,
+				9F2C52AC91073A08A8D2265ECBCD5FB7 /* MBProgressHUD-dummy.m */,
+				B7C59B503C4AA9F73E8DE425DD57E987 /* MBProgressHUD-Info.plist */,
+				7B01AF39D649DB8439594B9C0398237A /* MBProgressHUD-prefix.pch */,
+				59DCE091E2EBD7B109193F07FE1A02B2 /* MBProgressHUD-umbrella.h */,
+				9215B555AF2DBAC0EFA3D627D01790C1 /* MBProgressHUD.debug.xcconfig */,
+				F353F4A33370717C56F1947FB522EF56 /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		60CE438CCFF4AAFA342869B1F9F5306F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B6671906D74F4E4AC17F70CBB18B6F /* Alamofire.modulemap */,
+				03DCD4FCAAB55F3F5106482D573B637D /* Alamofire-dummy.m */,
+				676133691C531ED613F636D8C20578B7 /* Alamofire-Info.plist */,
+				57812B84756967AABBB4A63A5EDBE5A7 /* Alamofire-prefix.pch */,
+				90190E84D7425EA683A1B3F3C085521E /* Alamofire-umbrella.h */,
+				E01F58560BE8697F7FB457BC5BDD2D5B /* Alamofire.debug.xcconfig */,
+				8DDDC3FAE52A49633E4BA04502490B39 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		84A9CCE80AE4B5D9422DFC696920C26C /* Pods-WeatherForecastTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D0101778B81571B764504B61BB3163F /* Pods-WeatherForecastTests.modulemap */,
+				B327DA01EF63170658FB3A7853D65AD9 /* Pods-WeatherForecastTests-acknowledgements.markdown */,
+				ECBE9A07FA9C2E66956A60737EF2A447 /* Pods-WeatherForecastTests-acknowledgements.plist */,
+				F7C9C20294C5DDC338A77E50A826EDE5 /* Pods-WeatherForecastTests-dummy.m */,
+				DF3923244265A579C9D98F0323F21EA9 /* Pods-WeatherForecastTests-Info.plist */,
+				CCF9304D5255AE9798C81AA9B59CFF64 /* Pods-WeatherForecastTests-umbrella.h */,
+				41C7AA98AB6D23F3743510FEED8CD9FF /* Pods-WeatherForecastTests.debug.xcconfig */,
+				194F7351A0DB6AE27D787243AE1FD982 /* Pods-WeatherForecastTests.release.xcconfig */,
+			);
+			name = "Pods-WeatherForecastTests";
+			path = "Target Support Files/Pods-WeatherForecastTests";
+			sourceTree = "<group>";
+		};
+		A5A59A1A999AB0F92568C213FC3F0103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
+				BD20EE446682A760AF76465D9E8DEFC8 /* Pods-WeatherForecast */,
+				1CF9C131B0DA0F6D1EE930594FF264BB /* Pods-WeatherForecast-WeatherForecastUITests */,
+				E4C4D8F3DB54C3068FA98B7BE97398B7 /* Pods-WeatherForecastTests */,
+				809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D1555AC0ABF207A467381048B719F84 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3CE98B3CB4BB19C37ABEFE2DD624866 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				062DB263BE5BEA8EFAE0C2C5E05FBA96 /* RxSwift.modulemap */,
+				99B266BAD51A2D1C68233A7E7262016D /* RxSwift-dummy.m */,
+				555BCF2D8F8CC962E696490215E48B93 /* RxSwift-Info.plist */,
+				25C2754DA9664885B6E43D501BFBA97A /* RxSwift-prefix.pch */,
+				337A15C1DBDD9D7C6ABE69489F906271 /* RxSwift-umbrella.h */,
+				1A80A5DEF78FAD6AC7EE16BCEB328924 /* RxSwift.debug.xcconfig */,
+				461564EE838DEA91209DF3EFCAFE2005 /* RxSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RxSwift";
+			sourceTree = "<group>";
+		};
+		C46CC84ED805CE260B26EA43B19CBA8E /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7211CA6ED3E6679C4EB56EB0E3017 /* AddRef.swift */,
+				5D77A7D44C99E7F0DE7939615C39AC53 /* Amb.swift */,
+				27403C3DF8F81B5DB158FDFA83564BAF /* AnonymousDisposable.swift */,
+				6E6C8DA0A02150A8952B8CC734459B87 /* AnonymousObserver.swift */,
+				95135E2AAA5FA20D749969585510AB3C /* AnyObserver.swift */,
+				1261D55487B6DC2A50E1655943F98191 /* AsMaybe.swift */,
+				778D8B1EF063EE4DCA0A4A6161A2CC4E /* AsSingle.swift */,
+				FF66AC51E0D4F66451B1C9D5573C4526 /* AsyncLock.swift */,
+				31F0649622E4445AEAE1E30BF8C778E0 /* AsyncSubject.swift */,
+				27CAE2AC757AA540B11F14214697F408 /* AtomicInt.swift */,
+				EF3AA43AFAE624002F1DB1A5EA216E71 /* Bag.swift */,
+				7E72D25547E241A8D5C6D61D63823689 /* Bag+Rx.swift */,
+				6FCF193AFBDFF553A9E6A6D2A01DB312 /* BehaviorSubject.swift */,
+				F6ACCA2DFCA7AD65C796A74F52DCDEFF /* BinaryDisposable.swift */,
+				6ADE12233B343120FC4D040AA1D89E52 /* BooleanDisposable.swift */,
+				07F8D86E09CD23B552AE94173BC8654C /* Buffer.swift */,
+				AB77227FFD8D8F496E3DE052ABCDB7C3 /* Cancelable.swift */,
+				5059D71B05BABF0B572A3C6106EF98E4 /* Catch.swift */,
+				FA33E0C3E5C56FE858FF1C92F31AEEF1 /* CombineLatest.swift */,
+				2F0875292491530D867E8FBE39266F8E /* CombineLatest+arity.swift */,
+				A8E4DF17F3AE6777A46F7A2E8ED306A1 /* CombineLatest+Collection.swift */,
+				8687202F42026D48E7FB58E7BBFBBFC9 /* CompactMap.swift */,
+				25DEB8B072A9F88B5D15571330779D7E /* Completable.swift */,
+				36ED1F6BE2B6B4E383CEE9A372B656F4 /* Completable+AndThen.swift */,
+				26F373EECDD96FE46B3227B65CD65B14 /* CompositeDisposable.swift */,
+				B162AEA0E9E0ABB8836072A959E6824E /* Concat.swift */,
+				038CBCA29A664EC0D72DE9019815B52B /* ConcurrentDispatchQueueScheduler.swift */,
+				9EF3B934E1A77FEBA5F4D6963C345A09 /* ConcurrentMainScheduler.swift */,
+				8873E70A149F71ED37BA6652E189105F /* ConnectableObservableType.swift */,
+				7842265E2EE1142B2409DE3410244DA2 /* Create.swift */,
+				CDA96176A79EFA29F91D968A48D87CEC /* CurrentThreadScheduler.swift */,
+				A5ECF8BB7BE010D3338940D1DE685FAF /* Date+Dispatch.swift */,
+				BE9A4F00EC1B005AC5DFA6F409152AAA /* Debounce.swift */,
+				1FDBA13388950C776441B50B13A0ED9B /* Debug.swift */,
+				1868E45CA86637FCC0DD385482BC4B42 /* DefaultIfEmpty.swift */,
+				CE90D3B9B7217BF997132460BA128AB6 /* Deferred.swift */,
+				A475585FF233C2722119A91F1530A8E5 /* Delay.swift */,
+				468822B2BC099C903EC35ADFB519497A /* DelaySubscription.swift */,
+				50F5721772F6AC0C11B589291A8DB55F /* Dematerialize.swift */,
+				ED47E351DCD6A6EAF6D5A0B1DB54AD74 /* Deprecated.swift */,
+				F59A12E1050555E5B779A988F708AA10 /* DispatchQueue+Extensions.swift */,
+				33331A250C652CD31D57C6A65267FB77 /* DispatchQueueConfiguration.swift */,
+				12793811DD89FA418DA4A0F13F9BA219 /* Disposable.swift */,
+				73EFE8AB863B6073F37A0F8131801599 /* Disposables.swift */,
+				A0DEA775467C4ACBE735312D5D1D7DE2 /* DisposeBag.swift */,
+				D53078A3A770FC24887BE097C44FD076 /* DisposeBase.swift */,
+				94672A88D9B8F4550C88225EAD7148DE /* DistinctUntilChanged.swift */,
+				9102CD029A4DE54624689D2DFCB84875 /* Do.swift */,
+				BB8C9AA7C97C85A594577A9D961F5EC7 /* ElementAt.swift */,
+				85A21F78194A503F261AA06C78BD93F2 /* Empty.swift */,
+				EA2A6CCA0E47B93C63FEC03BCE2A3DF3 /* Enumerated.swift */,
+				2BB59304680DB6EF46A65C9E2A405227 /* Error.swift */,
+				90244FCF893C21048525AE2150A330A1 /* Errors.swift */,
+				E29729C842F2393A1646977FF91ECAB4 /* Event.swift */,
+				9253E3A157C11C702D3374FC13C21A1A /* Filter.swift */,
+				1DEF9547D415D97EDAAB3339548FA1FC /* First.swift */,
+				1713871FA0F8B013CDF7A1C0E6A490FA /* Generate.swift */,
+				4BD3E13C39B6229FE878C9478CBBDEBF /* GroupBy.swift */,
+				67BCBF299B0CF1ED2FCA9D9F3066C8F2 /* GroupedObservable.swift */,
+				AD03B5B02A03D4DACACB03AA508AE8BA /* HistoricalScheduler.swift */,
+				DF1B86B9352AD2FEF464E67784AAA022 /* HistoricalSchedulerTimeConverter.swift */,
+				9CCF46D8C2514AC5A4B378886FE4EC9C /* ImmediateSchedulerType.swift */,
+				1D93EF2CFF4C828486211507DB49ABC0 /* InfiniteSequence.swift */,
+				EC92BADF4AE75CB8D9AD5486E24729B5 /* InvocableScheduledItem.swift */,
+				B2CBD06E81EE87CD470862E0EE77E70A /* InvocableType.swift */,
+				0521F589C72BCF3CAE38FD27CBD6CED7 /* Just.swift */,
+				56777F68CD7908D65702AFEFE0189412 /* Lock.swift */,
+				57AD26EBD3299988637928BA984F2CFA /* LockOwnerType.swift */,
+				2147AD1A16F596CEAB1C62C2CA7E2DD9 /* MainScheduler.swift */,
+				233A295061E704FC6F0AA7FB6BE793C0 /* Map.swift */,
+				EAF8C7EF0A001F5DDD12A63CC446C7C9 /* Materialize.swift */,
+				D1C5B62CDCC00A84815FF46122E8793F /* Maybe.swift */,
+				853D79EC09368555AB8D2FB536273BC3 /* Merge.swift */,
+				D843437FF77423E677C7C6873BD9430E /* Multicast.swift */,
+				446E7DDCC65F1477B8608CC72C092A3A /* Never.swift */,
+				4D79F2A082068B01F18C710A54467437 /* NopDisposable.swift */,
+				965D091C830B79903F3B158841B4B82C /* Observable.swift */,
+				F2AFE7FC312F66E3F2A7EAAB0CE5D609 /* ObservableConvertibleType.swift */,
+				C80460BB6F46A18C6E97FC40BFBD379E /* ObservableType.swift */,
+				286B54AACF646AEA5E9C872C14D52F0D /* ObservableType+Extensions.swift */,
+				3CF6904EC1BCD0C206E38FAE508F5DD1 /* ObservableType+PrimitiveSequence.swift */,
+				7BFE17DE79B84D1C1CCA27F4FA6019E9 /* ObserveOn.swift */,
+				A1479D5B29F572A2170B1D34BFC9F3FC /* ObserverBase.swift */,
+				B553CEF19DDC9A025CD0807251904D95 /* ObserverType.swift */,
+				3212E314B17D25AB7A0897D7B5A589A4 /* OperationQueueScheduler.swift */,
+				91001A34947C7C72645D1CFD26317A8F /* Optional.swift */,
+				80DF6313547625E833AA805A31516150 /* Platform.Darwin.swift */,
+				EFBB563070871C22EB83584F58CBE524 /* Platform.Linux.swift */,
+				1184DA2911EE32ACAB1F03490C8CAC49 /* PrimitiveSequence.swift */,
+				A7B381066FE1988293B075F1BF0A6541 /* PrimitiveSequence+Zip+arity.swift */,
+				20CE4FDA02F11BDB9E229C07152951D7 /* PriorityQueue.swift */,
+				5BE534CD60D5808A4D7D0CE5AC7E136A /* Producer.swift */,
+				3E3968E24D8F47D58DEB2690522B95C0 /* PublishSubject.swift */,
+				EC8E53488E2114E8CA53289E286AE2C0 /* Queue.swift */,
+				D2AC71979FDFB40867677D8F68F0788E /* Range.swift */,
+				8929A0DB3C7EDA5D8FD9F60F582FEA36 /* Reactive.swift */,
+				1FE96BA8ADDB41B4E9516B268D2A115A /* RecursiveLock.swift */,
+				543EC324EDCC3C042F1F30F6B41795B0 /* RecursiveScheduler.swift */,
+				19864B36EB5859166831A91C93B152F4 /* Reduce.swift */,
+				C0C3E8374324776B263AF4558721CAA5 /* RefCountDisposable.swift */,
+				44329DB87ED1226FA94B3F8EA6D6D455 /* Repeat.swift */,
+				3CCFA2419D683AF8B25E2FE10B7A6443 /* ReplaySubject.swift */,
+				EC3E94DEA23E3308E1D7063BF3E87F44 /* RetryWhen.swift */,
+				37023B64A6EE8C7A805929BB5E331431 /* Rx.swift */,
+				5F67A7141127DB74E1E101B19A6614F3 /* RxMutableBox.swift */,
+				AF98ADF7E48E1FFC352A4FF938EEC39C /* Sample.swift */,
+				44BCCD4FB66968291E05AB60393B8EF0 /* Scan.swift */,
+				DA5B220FA6BF1E82824F900A384C29C4 /* ScheduledDisposable.swift */,
+				A99DC6B66069B963663007AF8560A7C7 /* ScheduledItem.swift */,
+				F0E17A333FE6EFDD953EE6EAE8BE43A7 /* ScheduledItemType.swift */,
+				C553791060E8D6E7B2CFD97C07325D93 /* SchedulerServices+Emulation.swift */,
+				D3F4CF65859DD954099B8AEF2B556B4A /* SchedulerType.swift */,
+				0625CB338D2388381D645A5C5A3CB69E /* Sequence.swift */,
+				D3379CB528F6D36B7F6BA7FF6D2950B2 /* SerialDispatchQueueScheduler.swift */,
+				94E7066E6EB341510E6D4CF1EB79713D /* SerialDisposable.swift */,
+				32D09E358988851FC93EA31FC2B9A155 /* ShareReplayScope.swift */,
+				FBEC7FFFC23BC0D3C6225C0D013ACE2D /* Single.swift */,
+				5264ED6509F62EE68DE8CC8C7C8CF868 /* SingleAssignmentDisposable.swift */,
+				E45D4E2F07E8D7521E1421E391BAA59E /* SingleAsync.swift */,
+				9DDBB1D87F1C2E45CA0B49EBE3DEDF49 /* Sink.swift */,
+				DB7315702973D9D7962717F22156764D /* Skip.swift */,
+				6CD09797191812E6AD99F0A2499406DE /* SkipUntil.swift */,
+				E22AE6ED9B59B98FB523B0D71B464579 /* SkipWhile.swift */,
+				1C6AC472BC3AA22685B36B6646F3E167 /* StartWith.swift */,
+				CBAC8D03272455B5A4F11DC25BA9707B /* SubjectType.swift */,
+				31EA5D0C4E0B8D51CE399280BF041397 /* SubscribeOn.swift */,
+				4FA7F1C1E519670CFD66BCEAFEC4E485 /* SubscriptionDisposable.swift */,
+				5F4BC6E2E02E2CFEBD8B80DB5B27A8DD /* SwiftSupport.swift */,
+				987D2BBCB0D575B7DF894326D689B486 /* Switch.swift */,
+				CCA6F1BDC8AF97F8DEDFBEE64FFF6332 /* SwitchIfEmpty.swift */,
+				F77A443FA4D84C46E2B6FBAC01AD256A /* SynchronizedDisposeType.swift */,
+				6A9F66BC410D4AF5CEA1174E76CFECA8 /* SynchronizedOnType.swift */,
+				2A31C85F2E138A5F2E8F8366B4452C3B /* SynchronizedUnsubscribeType.swift */,
+				05E8ECDCEA882401C80EDC403DD7437D /* TailRecursiveSink.swift */,
+				099019CE04B92F7D9DE74D4594E1E115 /* Take.swift */,
+				C72D59A5A6D65175FC652B9D17BBD8C4 /* TakeLast.swift */,
+				51C818BC8B1217AE56DB12DA5F05B5AC /* TakeUntil.swift */,
+				684246AB65835B05340F59F5D7EC8E7D /* TakeWhile.swift */,
+				4E2A902E713FD2701D7CFA4A4D42E2C9 /* Throttle.swift */,
+				6EE7C846341330FE6F5044A04C873EE4 /* Timeout.swift */,
+				A8BBC9A5CBAEA899031216FD551FDD53 /* Timer.swift */,
+				92B758CEC94EE75F76D29B607BD46A1F /* ToArray.swift */,
+				6019B750923ACB67554FA53A3F713223 /* Using.swift */,
+				0CA48D581195DB32AB7CBC7FD4D13BEA /* VirtualTimeConverterType.swift */,
+				E6EE4D8CDDE658C41945C752A7A2DFA1 /* VirtualTimeScheduler.swift */,
+				EE666377F1B8687A07E8FD67074507E4 /* Window.swift */,
+				3F6DDB886E06F46CADBFB7B61583328F /* WithLatestFrom.swift */,
+				2F180A9B154B50766EBE5A7E86D301CB /* Zip.swift */,
+				ADD7288F3628F67CDFA011A263B228A5 /* Zip+arity.swift */,
+				E56BFB53891D1D2BB5D93CEF7AEECD70 /* Zip+Collection.swift */,
+				C3CE98B3CB4BB19C37ABEFE2DD624866 /* Support Files */,
+			);
+			name = RxSwift;
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				20757983CDFD4FA7610CAE41F7193307 /* Pods */,
+				A5A59A1A999AB0F92568C213FC3F0103 /* Products */,
+				256B4A9DB50F7D07EC88F90F28BDC4C8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E56A2D327794EBCC694EB107DAAB35 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				73D8E7275FBDBDAED4716AC7035245C3 /* AFError.swift */,
+				7B5014057DD761FA4F0491AC3B46007D /* Alamofire.swift */,
+				3929B8979BA6D9B46D165C84322C39D6 /* AlamofireExtended.swift */,
+				F6806CBB4798EDAE6912BA5D5DE1D4A7 /* AuthenticationInterceptor.swift */,
+				95AAF02E04A3B6F07683F5ACA41085BA /* CachedResponseHandler.swift */,
+				A58F2F6274B010099D27EBBE00473EC9 /* Combine.swift */,
+				D8C386DBF3147131B2E46332ACFB0308 /* Concurrency.swift */,
+				F1850DCC9C22641EB683057AFEC1AAD4 /* DispatchQueue+Alamofire.swift */,
+				CCCEE41DBB6DC47D9FED473D5BEED763 /* EventMonitor.swift */,
+				44362FF756EA1CA5C5C424038BAF0BCE /* HTTPHeaders.swift */,
+				D8767853615F21AFAA59D164D11BE5EC /* HTTPMethod.swift */,
+				1238D40E047B23EC5A37C8D599C72054 /* MultipartFormData.swift */,
+				F746E5929414E92EFCA76E95AB3C3362 /* MultipartUpload.swift */,
+				F19A5B85EEFEEE9BB37E538EA7333314 /* NetworkReachabilityManager.swift */,
+				5251F3B5B4C178EB36E30255EA2D91C4 /* Notifications.swift */,
+				4F9A85D1BF542BED1BBEBF6FFBAAD8F0 /* OperationQueue+Alamofire.swift */,
+				5958E8050010C9C1E9EE8141C2DC455C /* ParameterEncoder.swift */,
+				E2B90CF667BCCF95AF1BF94512B49D5A /* ParameterEncoding.swift */,
+				63670D95EB45F91AF1612E95EAA0D7D9 /* Protected.swift */,
+				E16F58BEDD213B2F8195229B0C1AD733 /* RedirectHandler.swift */,
+				9082870497C31D3A7BEB4FC515B97665 /* Request.swift */,
+				5EFF03DDC29855BC8914EF0CA9475406 /* RequestInterceptor.swift */,
+				69241F4576BDD2D6D366B1A96AE5482D /* RequestTaskMap.swift */,
+				804466CB6363A4675378B28D7F1F8BA4 /* Response.swift */,
+				45F7F6626F4D6F62167D9CDFB63A0383 /* ResponseSerialization.swift */,
+				70B5B9855D5B88043B5F4C7DABA0FA95 /* Result+Alamofire.swift */,
+				9BF4FB3AD37678FB6CD101E7F371C2BC /* RetryPolicy.swift */,
+				DFD11516B67F1176CF978BFFEE297E4F /* ServerTrustEvaluation.swift */,
+				5850E9F210A34A2738F210F41A9984E8 /* Session.swift */,
+				1A19A27ED2601952ACD1B26D1619F57C /* SessionDelegate.swift */,
+				4D1E6992569DD6A0FCC8652DA64FFB4F /* StringEncoding+Alamofire.swift */,
+				DC20D3FDE5DEC2B38F4C2518DF64DF5D /* URLConvertible+URLRequestConvertible.swift */,
+				EB713E7D8C3F2AC321604B8CA2AB1135 /* URLEncodedFormEncoder.swift */,
+				77E857EDD10BE3357BF86089E60AB6D9 /* URLRequest+Alamofire.swift */,
+				96AD1A726FC5E7FA9ED0D141F6A41251 /* URLSessionConfiguration+Alamofire.swift */,
+				54D7FC0EDA3FDE02941F88326C189970 /* Validation.swift */,
+				60CE438CCFF4AAFA342869B1F9F5306F /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		E847724613CE1A023A7C985A30C6A38F /* Pods-WeatherForecast-WeatherForecastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81A719BD99E0126F63724D6EF3638A8A /* Pods-WeatherForecast-WeatherForecastUITests.modulemap */,
+				B733F527DADA8564604B4E6B4EBE7B09 /* Pods-WeatherForecast-WeatherForecastUITests-acknowledgements.markdown */,
+				2FAD90264B2DF3708E7EBFE102C786C6 /* Pods-WeatherForecast-WeatherForecastUITests-acknowledgements.plist */,
+				7648C47FCEA662EC53ECEEA38E643E8F /* Pods-WeatherForecast-WeatherForecastUITests-dummy.m */,
+				BC2A235B27E23C7AF158AAE404C034F4 /* Pods-WeatherForecast-WeatherForecastUITests-frameworks.sh */,
+				5FFBF1617B6CAD8853FC06EDC7EFC61B /* Pods-WeatherForecast-WeatherForecastUITests-Info.plist */,
+				B10A3416A30EEC7B7EF5C2298BBFAC0A /* Pods-WeatherForecast-WeatherForecastUITests-umbrella.h */,
+				479641EEB43AE52B0B4D6BD10CC29A11 /* Pods-WeatherForecast-WeatherForecastUITests.debug.xcconfig */,
+				D8F3C39215799E8BE2FBAF308CA10AF5 /* Pods-WeatherForecast-WeatherForecastUITests.release.xcconfig */,
+			);
+			name = "Pods-WeatherForecast-WeatherForecastUITests";
+			path = "Target Support Files/Pods-WeatherForecast-WeatherForecastUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00481F543C0A9287E01BC2D4160C7765 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7A44CBF39E20EF9916BF51970ED762 /* Pods-WeatherForecastTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E6F7B26483BE3BC9393C6C05D32424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5384E9FCB4BDF5D51E68512205B064F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5DB2C3F73B1D2038FED0C0325DE785 /* Pods-WeatherForecast-WeatherForecastUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D82C29ACD851E6EA219B34A73C961F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */,
+				5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6459595519558DCDC3C34847B80E95B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC21719393E34D87D6FF6FD81865AE62 /* RxSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13BB0B05A336EB2CCE6894B3408E840 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ED388F921DF6E1C68A2CF6F52ED35A /* Pods-WeatherForecast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BD2681E97C00DCC2EF91B0EBA76110 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				5D82C29ACD851E6EA219B34A73C961F5 /* Headers */,
+				7E957D4020E4C4BC633BF50F7F51E5F6 /* Sources */,
+				D6DC8F0C2894774845C1DD2E7CA07B0C /* Frameworks */,
+				C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */;
+			productType = "com.apple.product-type.framework";
+		};
+		934F9A888CB66920B6D44B82EA58B0C5 /* Pods-WeatherForecast-WeatherForecastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF76375D2824FDB49C38FBF977D1FC2 /* Build configuration list for PBXNativeTarget "Pods-WeatherForecast-WeatherForecastUITests" */;
+			buildPhases = (
+				5384E9FCB4BDF5D51E68512205B064F6 /* Headers */,
+				461E0EDE7DD2723D5F69B109EF8DDEDD /* Sources */,
+				B81C858C09BFF71F66112F8B5D6177C3 /* Frameworks */,
+				899A2A989F826FF12DD9998C8A5928E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870B3B727333738D78813BE13B9E50AB /* PBXTargetDependency */,
+				1D74B22521AB270EFB1173703C92D65C /* PBXTargetDependency */,
+				513E9D67F3DC7E96E34359B33431A46A /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherForecast-WeatherForecastUITests";
+			productName = Pods_WeatherForecast_WeatherForecastUITests;
+			productReference = 1CF9C131B0DA0F6D1EE930594FF264BB /* Pods-WeatherForecast-WeatherForecastUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0FD6BC25A6A8758491ECBC0CAC134F3 /* Pods-WeatherForecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEFE757DC0E74EB411A4EAD51C040A7 /* Build configuration list for PBXNativeTarget "Pods-WeatherForecast" */;
+			buildPhases = (
+				E13BB0B05A336EB2CCE6894B3408E840 /* Headers */,
+				BE23BB19AC0C79BFA6B87EA8E585B340 /* Sources */,
+				EE4EDE41642D57A7FCF054CC6A21A4CC /* Frameworks */,
+				3B333577FC09BF921A1B9AA7B9B111F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB41C8561D53CBB8DFF6616090C1CB7A /* PBXTargetDependency */,
+				4CA51A34B01B7E640B63083DA32957E5 /* PBXTargetDependency */,
+				838DB7B666FC78BDEBE14805957BD36C /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherForecast";
+			productName = Pods_WeatherForecast;
+			productReference = BD20EE446682A760AF76465D9E8DEFC8 /* Pods-WeatherForecast */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD674BAE52A31BA7E0175E2B22EAF86F /* Pods-WeatherForecastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51777ACBA0EC2DD9BD6ADD54C95C3F80 /* Build configuration list for PBXNativeTarget "Pods-WeatherForecastTests" */;
+			buildPhases = (
+				00481F543C0A9287E01BC2D4160C7765 /* Headers */,
+				832CAB4106CD26CD56DC14D2A81784D0 /* Sources */,
+				CAB440D6A698C81ACA39B51E10A47570 /* Frameworks */,
+				D294F7741215EC99041E8FCADAFE5344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CE463F8E5B57DA3B34DF285D5C37786 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherForecastTests";
+			productName = Pods_WeatherForecastTests;
+			productReference = E4C4D8F3DB54C3068FA98B7BE97398B7 /* Pods-WeatherForecastTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE37E87D7CF8190E87E435D6A585545 /* Build configuration list for PBXNativeTarget "RxSwift" */;
+			buildPhases = (
+				6459595519558DCDC3C34847B80E95B9 /* Headers */,
+				66314B6EBE26A170A52DA7A06EFB0499 /* Sources */,
+				A0CD260DD361300B7C671CCCFA7947AC /* Frameworks */,
+				A65F0D6650D420776C4EAC962F0EABB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSwift;
+			productName = RxSwift;
+			productReference = 809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				52E6F7B26483BE3BC9393C6C05D32424 /* Headers */,
+				F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */,
+				15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */,
+				E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A5A59A1A999AB0F92568C213FC3F0103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				A0FD6BC25A6A8758491ECBC0CAC134F3 /* Pods-WeatherForecast */,
+				934F9A888CB66920B6D44B82EA58B0C5 /* Pods-WeatherForecast-WeatherForecastUITests */,
+				DD674BAE52A31BA7E0175E2B22EAF86F /* Pods-WeatherForecastTests */,
+				EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B333577FC09BF921A1B9AA7B9B111F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899A2A989F826FF12DD9998C8A5928E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65F0D6650D420776C4EAC962F0EABB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D294F7741215EC99041E8FCADAFE5344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461E0EDE7DD2723D5F69B109EF8DDEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5C9D6B644F507554E1791FE96FABAD /* Pods-WeatherForecast-WeatherForecastUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66314B6EBE26A170A52DA7A06EFB0499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F87B1EC6FD873896A7C4056539806A /* AddRef.swift in Sources */,
+				7B093D72BEB063FE68DAD3C89F7AA0F5 /* Amb.swift in Sources */,
+				C9533C80832CC3B2580C808D816B9EA8 /* AnonymousDisposable.swift in Sources */,
+				25F75D32ED3AFA5B454A33A92AB84A3B /* AnonymousObserver.swift in Sources */,
+				DDB8588E6E16473ACB1BBF4E90C5BB37 /* AnyObserver.swift in Sources */,
+				159763EAB98C1C8B4324D1AF3EC47CB1 /* AsMaybe.swift in Sources */,
+				DEFB359FB6836F5D3B5A87ACFF2488DF /* AsSingle.swift in Sources */,
+				5E5E868A0257E1EC728883A1728393D8 /* AsyncLock.swift in Sources */,
+				759642D0BAE19731084BE627B2C753DA /* AsyncSubject.swift in Sources */,
+				B6D96BF1905E938CC1550663E0E968D8 /* AtomicInt.swift in Sources */,
+				898ED2E1194D72ED57492A55596DA234 /* Bag.swift in Sources */,
+				26B54611D7622A553EBF17E7AF522120 /* Bag+Rx.swift in Sources */,
+				71365E9EEF335AC0D44445C0F05B878F /* BehaviorSubject.swift in Sources */,
+				0E819DAF1324ED7250755AC0E16E7A64 /* BinaryDisposable.swift in Sources */,
+				B93295CD8E534490864EC5EA7B144ECA /* BooleanDisposable.swift in Sources */,
+				3C2173C0E9D66EC32A3B2CE5DF1F52C4 /* Buffer.swift in Sources */,
+				A227914003FEC4D934EEA4E4B667DEEB /* Cancelable.swift in Sources */,
+				C006486E77138957EA598E11A16B1BCE /* Catch.swift in Sources */,
+				079C1CC5A67C1C67A424509A260EDFCF /* CombineLatest.swift in Sources */,
+				1A31C6B93032B701C735766A2FDE8B79 /* CombineLatest+arity.swift in Sources */,
+				16AECD71F2DF6086E382E9EEF4F450E0 /* CombineLatest+Collection.swift in Sources */,
+				BCAAED2C26D553DDC54E4CE9BA6492F2 /* CompactMap.swift in Sources */,
+				F54EED2366383AA126EA608AE74C78E4 /* Completable.swift in Sources */,
+				B9FCD6CD909D958D3A2453BAC7FFAA75 /* Completable+AndThen.swift in Sources */,
+				75C4FD53E2160418A73553D2ED2D2312 /* CompositeDisposable.swift in Sources */,
+				61BB90D0062C2BE088980CA482AE5CA5 /* Concat.swift in Sources */,
+				15F8E0783FDB1EC2D0034F3565668D24 /* ConcurrentDispatchQueueScheduler.swift in Sources */,
+				EC1B71EF0475948050F721E0C4BECD6C /* ConcurrentMainScheduler.swift in Sources */,
+				8EAC0BF7E801ADF6AEA6D786FA5A7518 /* ConnectableObservableType.swift in Sources */,
+				01F3F31E6B98377B85D1A690C161E2A2 /* Create.swift in Sources */,
+				CED380635575FFCE8BD164BA255AE139 /* CurrentThreadScheduler.swift in Sources */,
+				5AF7D6515D4F38DB9C5110D3613D1C81 /* Date+Dispatch.swift in Sources */,
+				3F6CECD0C32283B0D08368E6212CC674 /* Debounce.swift in Sources */,
+				F126DAB49F8EB48A414DED3CBCDDBDF0 /* Debug.swift in Sources */,
+				340E5BA12C8F5AC613ED85ECD8D9623F /* DefaultIfEmpty.swift in Sources */,
+				2BC52A9DA6D9E9BBC33C90DD3DD1AEC4 /* Deferred.swift in Sources */,
+				3B381F45DD9F455B2ABB074CB40C22F7 /* Delay.swift in Sources */,
+				14190E1FEF9E6E93CFEAA5E27F26C8C3 /* DelaySubscription.swift in Sources */,
+				1DAE63EAD834608767B8C7269E4B22D5 /* Dematerialize.swift in Sources */,
+				6EF7C0FBE2C46F810047240C17A7B785 /* Deprecated.swift in Sources */,
+				73D261440078A6DFDF40396E07612E5A /* DispatchQueue+Extensions.swift in Sources */,
+				E8F3DE9BEB998B45E83647233F51E263 /* DispatchQueueConfiguration.swift in Sources */,
+				11F6DEC285FF17DA098E6590438E4458 /* Disposable.swift in Sources */,
+				F011372633695C8A45D695B02BF514E5 /* Disposables.swift in Sources */,
+				A4EE487F061ACA034A7C50F296748F13 /* DisposeBag.swift in Sources */,
+				E871185783CDFF137812EE3CF7579ECF /* DisposeBase.swift in Sources */,
+				1810D1A6383D5C004D3CF006DD87E008 /* DistinctUntilChanged.swift in Sources */,
+				78DE6E2130A6F57F454F8048AFC968A6 /* Do.swift in Sources */,
+				A756BDB189A09CE1478E06A8A8D898AB /* ElementAt.swift in Sources */,
+				EA811C7D83F056ADDCFB2296BDFEF01E /* Empty.swift in Sources */,
+				726773AA835622512AF1EE0A7CBA352C /* Enumerated.swift in Sources */,
+				9B23E3067987801CA586FD9C16263187 /* Error.swift in Sources */,
+				51DDC5068CFEBB05E762F7903EEB0BFE /* Errors.swift in Sources */,
+				53483D2813CBD2559B61BB8ECEEBB720 /* Event.swift in Sources */,
+				442A2327E5AC99AC722353C9A6217B10 /* Filter.swift in Sources */,
+				3F349793EDACADB4F5C11CA55606D975 /* First.swift in Sources */,
+				BA49FA81C33B9AC1A8B950AF87943968 /* Generate.swift in Sources */,
+				121C09EB46029C6207E0050738E285EF /* GroupBy.swift in Sources */,
+				64617228332642AC78D26A5625F14D08 /* GroupedObservable.swift in Sources */,
+				B440F3C87778682DA6EB87E441223947 /* HistoricalScheduler.swift in Sources */,
+				B8A430896EA4B0C96B8F57B9799A79A5 /* HistoricalSchedulerTimeConverter.swift in Sources */,
+				9AB916AE6DAEE8884B624AA511589F21 /* ImmediateSchedulerType.swift in Sources */,
+				B3869F8B5002FEC4300C46B70D4407C2 /* InfiniteSequence.swift in Sources */,
+				0E7750980E3351BDE6C71CBA7FABEF5C /* InvocableScheduledItem.swift in Sources */,
+				B0BE8BF01E52783D783CFAA8917B98E3 /* InvocableType.swift in Sources */,
+				7287792889178704A9CA725170E8D5EB /* Just.swift in Sources */,
+				2DCDE54987286816A42D99460498F2CA /* Lock.swift in Sources */,
+				90BB409A53D09F03EE72F001FC299DA5 /* LockOwnerType.swift in Sources */,
+				C3394EE771A142B4EDB26989A376F5A9 /* MainScheduler.swift in Sources */,
+				7864D7E6B0010724527D9DF3388AE105 /* Map.swift in Sources */,
+				21D01DE478D593633D7F9107E87F0389 /* Materialize.swift in Sources */,
+				05C1F09A8C7E1CE70E186AB7FC94E807 /* Maybe.swift in Sources */,
+				0037A383D8F1140F05D4D451088B94F8 /* Merge.swift in Sources */,
+				F0C81DE470D29695790035820C904F4B /* Multicast.swift in Sources */,
+				B1CEC653E8926D6CD81D8AFABA2F03B1 /* Never.swift in Sources */,
+				AC69635D928936D2706A921AF3E8BE8C /* NopDisposable.swift in Sources */,
+				5E2EA0BC7803FE4E36E5B68FFC3D9AAA /* Observable.swift in Sources */,
+				D25E7D0AE33E2E5F1A0776A70A71E809 /* ObservableConvertibleType.swift in Sources */,
+				BCCC3D9EA23B1133EB18D414340313C4 /* ObservableType.swift in Sources */,
+				9DD25161CA24FA409D87BD1F7E467086 /* ObservableType+Extensions.swift in Sources */,
+				C509829624E96E4A34B66516A01CB5E5 /* ObservableType+PrimitiveSequence.swift in Sources */,
+				EC4DAF30E5E6992341B4650E09A2C3C1 /* ObserveOn.swift in Sources */,
+				E11C236EA5D17CB9BCB2788C87039AC5 /* ObserverBase.swift in Sources */,
+				5A067882BD23845EB07ED3D99A244D01 /* ObserverType.swift in Sources */,
+				8EC5E09EB84A2DAD77D59693AB4B60FF /* OperationQueueScheduler.swift in Sources */,
+				DE8725535F4E94F5FD00282E9E24E160 /* Optional.swift in Sources */,
+				15AD6D46B2A1DD5CA5B31D025B995EEA /* Platform.Darwin.swift in Sources */,
+				98AE70908354AAC1C5E6A7BC138CE516 /* Platform.Linux.swift in Sources */,
+				04D65B42A5135937022F71EB91D49C88 /* PrimitiveSequence.swift in Sources */,
+				409BFAA68DEB80CB6BEE19B3E99A4F0A /* PrimitiveSequence+Zip+arity.swift in Sources */,
+				B6CD1F770CD468C9720879794345773F /* PriorityQueue.swift in Sources */,
+				181640DE625A117E7F27AB8B2D715CA4 /* Producer.swift in Sources */,
+				058366F440459C08DAC78CB68B49E5FD /* PublishSubject.swift in Sources */,
+				95173A46BFF0B5D22FE55658044A874B /* Queue.swift in Sources */,
+				4D89B922561BF30DD82310F3DBA382E3 /* Range.swift in Sources */,
+				D1A4EE598EC6F041DC1F8D1C4A037E75 /* Reactive.swift in Sources */,
+				752C264BE890D37B96F6C4537B72FFF1 /* RecursiveLock.swift in Sources */,
+				9BD65633E545953567E8EB29EF32C683 /* RecursiveScheduler.swift in Sources */,
+				A3D0822B922E554DFCF120C9EE8420ED /* Reduce.swift in Sources */,
+				3ED3E1F0FA37B5D5104040FCF3EE744A /* RefCountDisposable.swift in Sources */,
+				3FA94B065201568A7D53B06A3E7F43AA /* Repeat.swift in Sources */,
+				E29350ACDBBA9B3B591E811382234BBF /* ReplaySubject.swift in Sources */,
+				D5D35C4D80982CF4DEA8F8CA28E7F9B3 /* RetryWhen.swift in Sources */,
+				E11579EC723AA5D3FC32D15F766C5728 /* Rx.swift in Sources */,
+				1A0E11FBDA1C1CD536CFED9C3F9B5852 /* RxMutableBox.swift in Sources */,
+				152517B49D75C9DE8F0249C3EBD9E9BC /* RxSwift-dummy.m in Sources */,
+				AA39B13A259C9D27361DD134779E0CAD /* Sample.swift in Sources */,
+				629E0562FD0C353FC9D0A4BDFC3F45AD /* Scan.swift in Sources */,
+				88C1E1B9244ACD3313053ECB30F186E0 /* ScheduledDisposable.swift in Sources */,
+				8DD1258C3BDB899445984852871F9294 /* ScheduledItem.swift in Sources */,
+				4A3BC74A39DD9F94D2039DED3A249F39 /* ScheduledItemType.swift in Sources */,
+				4A1A92158D5B490EDFE00E74FB1F7575 /* SchedulerServices+Emulation.swift in Sources */,
+				CC74E97D48A46F54146A1746679335F0 /* SchedulerType.swift in Sources */,
+				9B0BE91DD7A71C619AE74B3C04D9F3EC /* Sequence.swift in Sources */,
+				05D4B4A37F384BD407718FDBE07A23F9 /* SerialDispatchQueueScheduler.swift in Sources */,
+				FD80F935EE17E0875BBE838A29648B06 /* SerialDisposable.swift in Sources */,
+				02D8725F995F4C859481D39B993086D9 /* ShareReplayScope.swift in Sources */,
+				E3CC6A133BE652166B7E71E18A951DC1 /* Single.swift in Sources */,
+				F8BEA00F44E234087637654C306B497B /* SingleAssignmentDisposable.swift in Sources */,
+				69B872C9E966769F53F257A41550A8D8 /* SingleAsync.swift in Sources */,
+				413C960B8F6A22369945CD39D798EBBC /* Sink.swift in Sources */,
+				58A01985DC698B916413DFC8CFDC2D93 /* Skip.swift in Sources */,
+				4B977AF9351B133CFD08FACC8980D63B /* SkipUntil.swift in Sources */,
+				02EAD8786C85DC140E3BDB4C6506E006 /* SkipWhile.swift in Sources */,
+				5362ED50B5BAD017EE00B8CDF153E405 /* StartWith.swift in Sources */,
+				46DA0B7995254B2A0058E048E6BFFD7A /* SubjectType.swift in Sources */,
+				3A80A3D6071FD91AFBEFB9EC8D4EEC19 /* SubscribeOn.swift in Sources */,
+				AEEB33D64B96FF2D70420E0C9BD4D838 /* SubscriptionDisposable.swift in Sources */,
+				B32EF1FCB0BF993AB6AC7802CB0DB3E9 /* SwiftSupport.swift in Sources */,
+				675BD3AE56F03E1939BE3F90CB4CA7A4 /* Switch.swift in Sources */,
+				160AE7A02917CEDB1811FA559B534EAA /* SwitchIfEmpty.swift in Sources */,
+				24B95805E3A58641F8E5D89DC7C79678 /* SynchronizedDisposeType.swift in Sources */,
+				1E3041658084EEA4090F79F1A0954B25 /* SynchronizedOnType.swift in Sources */,
+				C7BD84A884673DD45D788B284CE4DFA6 /* SynchronizedUnsubscribeType.swift in Sources */,
+				663FBF04C43B60ECCCA30A13E899CA2D /* TailRecursiveSink.swift in Sources */,
+				52B62146A0506511C33FFE21D479F098 /* Take.swift in Sources */,
+				7B9B62B83925BFC191CFD9A89B6491A4 /* TakeLast.swift in Sources */,
+				5AFEB2CECF6B7878E79F2C766B8E62D7 /* TakeUntil.swift in Sources */,
+				F80F4022491C57DE67E998E14DD94C1C /* TakeWhile.swift in Sources */,
+				C54AC9D222E80837102D4339E8F999C6 /* Throttle.swift in Sources */,
+				3F3458C4FB7A3A0BFB1CDDD80BA625DC /* Timeout.swift in Sources */,
+				13C1C24A483A3997FC78399C0364AECC /* Timer.swift in Sources */,
+				D04E136F7EB38AC7982E586CC551CCF6 /* ToArray.swift in Sources */,
+				DFCBD7DE97F3C558FBE5279A93259BB9 /* Using.swift in Sources */,
+				C8546C4EB10EAC109460308021CA718C /* VirtualTimeConverterType.swift in Sources */,
+				5CCE4D4C956846C42FEE56223FCFF75F /* VirtualTimeScheduler.swift in Sources */,
+				1A54D6DEDFA4DF6BB7BF87B415F31FB6 /* Window.swift in Sources */,
+				2A7273E692E8E3DB11A135FC44AD1F22 /* WithLatestFrom.swift in Sources */,
+				037060932B0F96019BF498DDB0275B79 /* Zip.swift in Sources */,
+				3DB87D613F5435DFC14852E123BFAFF0 /* Zip+arity.swift in Sources */,
+				A3704F887F4FE7B7622DFE2A9E193496 /* Zip+Collection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E957D4020E4C4BC633BF50F7F51E5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */,
+				58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832CAB4106CD26CD56DC14D2A81784D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A65E9EAB9B93ABA3EEA8A14ED1B8BF /* Pods-WeatherForecastTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE23BB19AC0C79BFA6B87EA8E585B340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC9CD9D0398445EE7E59FEA8404CD4F /* Pods-WeatherForecast-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */,
+				F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */,
+				55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */,
+				1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */,
+				7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */,
+				2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */,
+				46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */,
+				9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */,
+				EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */,
+				CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */,
+				7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */,
+				D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */,
+				7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */,
+				E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */,
+				A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */,
+				2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */,
+				E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */,
+				99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */,
+				68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */,
+				A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */,
+				045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */,
+				B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */,
+				DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */,
+				DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */,
+				75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */,
+				824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */,
+				04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */,
+				33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */,
+				B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */,
+				81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */,
+				1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */,
+				7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */,
+				8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */,
+				BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */,
+				808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D74B22521AB270EFB1173703C92D65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = B2457EDD98E71509452A2C40376884B0 /* PBXContainerItemProxy */;
+		};
+		4CA51A34B01B7E640B63083DA32957E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = DEA660DC27D47667F57BDB74C92E7C8E /* PBXContainerItemProxy */;
+		};
+		513E9D67F3DC7E96E34359B33431A46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
+			targetProxy = 23D6A6F6F4C096FD8F0CDAD10E873A98 /* PBXContainerItemProxy */;
+		};
+		838DB7B666FC78BDEBE14805957BD36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
+			targetProxy = D82E4F657F6B5B70B4D8153B145DAA62 /* PBXContainerItemProxy */;
+		};
+		870B3B727333738D78813BE13B9E50AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 069AD6CBE229D5DF53535D2B41F67FC3 /* PBXContainerItemProxy */;
+		};
+		9CE463F8E5B57DA3B34DF285D5C37786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeatherForecast";
+			target = A0FD6BC25A6A8758491ECBC0CAC134F3 /* Pods-WeatherForecast */;
+			targetProxy = 4439B694D0C4AF9B4359E5994B80E594 /* PBXContainerItemProxy */;
+		};
+		AB41C8561D53CBB8DFF6616090C1CB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 7607F8ED06C09BBF0F65E95D5F5F4ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = armv7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0A454D27953973492F938F990645D859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A80A5DEF78FAD6AC7EE16BCEB328924 /* RxSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift/RxSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift/RxSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = armv7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2FAFE1DC7A458FEF63956CBD25BCBF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C7AA98AB6D23F3743510FEED8CD9FF /* Pods-WeatherForecastTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherForecastTests/Pods-WeatherForecastTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherForecastTests/Pods-WeatherForecastTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43E14EF67E008D9F8DDE78FF1916B16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5486553CE8C5294682BD26C7431E36 /* Pods-WeatherForecast.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		674873782FCC57EC99F05922A4047BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194F7351A0DB6AE27D787243AE1FD982 /* Pods-WeatherForecastTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherForecastTests/Pods-WeatherForecastTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherForecastTests/Pods-WeatherForecastTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		803375578C13AB149BE9E47AB2187AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F3C39215799E8BE2FBAF308CA10AF5 /* Pods-WeatherForecast-WeatherForecastUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherForecast-WeatherForecastUITests/Pods-WeatherForecast-WeatherForecastUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherForecast-WeatherForecastUITests/Pods-WeatherForecast-WeatherForecastUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		880219FBBFBA4B703A46B5F770D59ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01F58560BE8697F7FB457BC5BDD2D5B /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A095D82BFCDAC9C7C8014C396F586B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479641EEB43AE52B0B4D6BD10CC29A11 /* Pods-WeatherForecast-WeatherForecastUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherForecast-WeatherForecastUITests/Pods-WeatherForecast-WeatherForecastUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherForecast-WeatherForecastUITests/Pods-WeatherForecast-WeatherForecastUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4CB07BF0F0D176FBB7A0CE038889B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88738351371E397789B3F0737B2D6D13 /* Pods-WeatherForecast.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3C37B487645A54D043C2C18BF002F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F353F4A33370717C56F1947FB522EF56 /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD82844C2A9059620DDEF5E37B5F17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461564EE838DEA91209DF3EFCAFE2005 /* RxSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift/RxSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift/RxSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE569755C8FE69395D8E6C347DC7A5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9215B555AF2DBAC0EFA3D627D01790C1 /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F95E4C330E939A7027D8A4E361545DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDDC3FAE52A49633E4BA04502490B39 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF76375D2824FDB49C38FBF977D1FC2 /* Build configuration list for PBXNativeTarget "Pods-WeatherForecast-WeatherForecastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A095D82BFCDAC9C7C8014C396F586B69 /* Debug */,
+				803375578C13AB149BE9E47AB2187AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51777ACBA0EC2DD9BD6ADD54C95C3F80 /* Build configuration list for PBXNativeTarget "Pods-WeatherForecastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FAFE1DC7A458FEF63956CBD25BCBF1E /* Debug */,
+				674873782FCC57EC99F05922A4047BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880219FBBFBA4B703A46B5F770D59ADF /* Debug */,
+				F95E4C330E939A7027D8A4E361545DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BD2681E97C00DCC2EF91B0EBA76110 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE569755C8FE69395D8E6C347DC7A5F8 /* Debug */,
+				C3C37B487645A54D043C2C18BF002F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEFE757DC0E74EB411A4EAD51C040A7 /* Build configuration list for PBXNativeTarget "Pods-WeatherForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E14EF67E008D9F8DDE78FF1916B16A /* Debug */,
+				A4CB07BF0F0D176FBB7A0CE038889B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE37E87D7CF8190E87E435D6A585545 /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A454D27953973492F938F990645D859 /* Debug */,
+				CD82844C2A9059620DDEF5E37B5F17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

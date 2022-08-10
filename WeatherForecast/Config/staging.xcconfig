@@ -1,0 +1,19 @@
+//
+//  staging.xcconfig
+//  WeatherForecast
+//
+//  Created by smitha Dharan on 09/08/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = WeatherForecast
+APP_VERSION = 0.1
+APP_BUNDLE_ID = app.smitha.com.WeatherForecast
+//APP_ICON = AppIconDebug
+
+
+BACKEND_URL = https:\/\/api.openweathermap.org\/data\/2.5\
+API_KEY =
+IMAGE_REPO_BASE_URL = "https://openweathermap.org/img/w/"
